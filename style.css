@@ -1,0 +1,209 @@
+body {
+display: block;
+margin: 0;  
+}
+
+.wrap {
+margin: auto;
+width: 100%;
+height: 900px;
+background-image: linear-gradient(to right, black 32%, white 32%, white 68%);
+}
+
+.header {
+margin: auto;
+display: flex;
+justify-content: space-between;
+margin-bottom: 10px;
+}
+
+.header__logo {
+position: relative;
+padding: 36px 0;
+padding-left: 53px;
+font: 30px/36px montserratmedium, arial, helvetica, sans-serif; 
+color: #FFF;
+}
+
+.header__language {
+position: relative;
+font: 20px/24px montserratmedium, arial, helvetica, sans-serif;
+color:#FFF;
+padding: 42px 0; 
+left:119px;
+}
+
+.header__arrow {
+width: 8px;
+height: 7px;
+margin:49px 783px 0 0 ;
+border-top: 2px solid #FFF;
+border-right: 2px solid #FFF;
+transform: rotate(135deg);
+}
+
+.header__box {
+display: block;
+position: static;
+width: 92px;
+height: 92px;
+left: 1400px;
+z-index: 1;  
+background: #ebe9e9;  
+}
+
+.menu__button {
+display: block;
+position: static;
+left: 1400px;
+width: 60px;
+height: 51px;
+cursor: pointer;
+z-index: 2;
+padding: 38px 0 0 28px;
+}
+
+.menu__checkbox {
+display: none;
+}
+
+.menu__button > span,
+.menu__button > span::before {
+display: block;
+position: relative;
+width: 34px;
+height: 3px;
+background-color: #000000;
+}
+
+.menu__button > span::before {
+content: '';
+top: 10px;
+width: 34px;
+}
+
+.main {
+margin: 55px 33px 40px 185px;
+padding: 114px 0 0 250px;
+background: no-repeat url(Img/mask_group.svg);
+background-position: center left;
+background-size: 549px 562px;
+}
+.main__header {
+margin: 0 0 0 351px;    
+font: 92px/83px montserratbold, arial, helvetica, sans-serif;
+font-weight: bold;    
+}
+
+.main__paragraph {
+margin:8px 0 0 352px;
+font: 17px/21px montserratmedium, arial, helvetica, sans-serif;  
+max-width: 467px;   
+}
+
+.main__button {
+display: inline-block;    
+margin:36px 0 0 348px;
+font: 15px/ 21px montserratmedium, arial, helvetica, sans-serif;
+font-size: 13px;
+width: 203px;
+height: 44px;
+border: 1.5px solid #000000;
+line-height: 44px;
+font-size: 13px;
+text-decoration: none;
+color:#000;
+text-align: center;
+}
+
+.main__link {
+margin: 0 0 0 48px; 
+font:14px/14px montserratmedium, arial, helvetica, sans-serif;
+width: 172px;
+color: #000;
+text-decoration: none; 
+}
+
+.main__arrow {
+cursor: pointer;
+position: relative;
+width: 75px;
+height: 48px;
+}
+
+.main__arrow div {
+position: relative;
+bottom: 24px;
+width: 43px;
+height: 1px;
+background-color: #000;
+left: 798px;
+display: block;
+}
+
+.main__arrow div::after {
+content: '';
+position: absolute;
+width: 7px;
+height: 1px;
+top: -2px;
+right: -2px;
+background-color: #000;
+transform: rotate(45deg);
+}
+
+.main__arrow div::before {
+content: '';
+position: absolute;
+width: 7px;
+height: 1px;
+top: 2px;
+right: -2px;
+background-color: #000;
+transform: rotate(-45deg);
+}
+
+.group {
+display: flex;    
+}
+.group__instagram {
+display: flex;
+background: url(Img/INST.png);    
+width: 43px;  
+height: 43px;
+}
+
+.group__vk {
+display: flex;
+background: url(Img/VK.png);
+width: 43px; 
+height: 43px;   
+}
+
+.group__fb {
+display: flex;
+background: url(Img/FB.png);
+width: 43px;
+height: 43px;    
+}
+
+.group__scrool {
+display: flex;
+width: 27px; 
+height: 46px;   
+}
+
+
+.wrapper {
+margin: 0%;    
+width: 100%;
+height: 900px; 
+background: #FAE8E4;   
+}
+
+.wrappering {
+margin: 0%;
+width: 100%;
+height: 900px;    
+background: #EBE3D8;
+}

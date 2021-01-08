@@ -1,6 +1,6 @@
 body {
 display: block;
-margin: 0;  
+margin: 0;
 }
 
 .wrap {
@@ -15,12 +15,14 @@ justify-content: space-between;
 }
 
 .header-box {
-width: 461px;
+width: 489px;
 display: flex;
 justify-content: space-between;
 }
 
 .header-box__logo {
+position: relative;
+display: block;
 padding: 36px 0;
 padding-left: 53px;
 font: 30px/36px montserratmedium, arial, helvetica, sans-serif;
@@ -29,7 +31,7 @@ color: #FFF;
 
 .header-container {
 display: flex;
-width: 72px;
+width: 100px;
 justify-content: flex-start;
 }
 
@@ -48,12 +50,7 @@ border-top: 2px solid #FFF;
 border-right: 2px solid #FFF;
 transform: rotate(135deg);}
 
-.header__nav {
-display: block;
-width: 92px;
-height: 92px;
-background: #ebe9e9;
-}
+.header__nav {display: block;width: 92px;height: 92px;background: #ebe9e9;}
 
 .menu__button {
 display: block;
@@ -80,35 +77,30 @@ top: 10px;
 width: 34px;
 }
 
-.main {
-display: flex;    
-justify-content: space-around;
-background: no-repeat url(Img/mask_group.svg);  
-}
+.main {display: flex;justify-content: space-around;}
 
-.photo {
-display: block;    
-}
+.photo {display: block;background-position: center;}
+
+.photo__img {
+display: block;
+position: relative;
+background-position: center;}
 
 .home-page {
 display: block;
+justify-content: center;
 width: 488px;
 height: 556px;
-left: 785px;
-top: 41px;
 }
 
 .home-page__header {
 font: 92px/83px montserratbold, arial, helvetica, sans-serif;
 font-weight: bold; 
-margin-bottom: 9px; 
-margin-left: 4px;  
 }
 
 .home-page__paragraph {
 font: 17px/21px montserratmedium, arial, helvetica, sans-serif;  
 max-width: 467px; 
-margin: 10px 0 37px 3px; 
 }
 
 .home-page__button {
@@ -126,7 +118,6 @@ text-align: center;
 
 .home-page__link {
 display: inline-block;
-margin-left: 49px;
 font:14px/14px montserratmedium, arial, helvetica, sans-serif;
 width: 172px;
 color: #000;
@@ -140,13 +131,10 @@ height: 48px;
 }
 
 .home-page__arrow div {
-position: relative;
-bottom: 24px;
+display: block;
 width: 43px;
 height: 1px;
 background-color: #000;
-left: 448px;
-display: block;
 }
 
 .home-page__arrow div::after {
@@ -173,36 +161,36 @@ transform: rotate(-45deg);
 
 .group {
 display: flex;
-margin-top: 24px;    
+justify-content: space-between;    
 }
 
-.group__instagram {
+.social-network {
 display: flex;
-margin-left: 52px;
+justify-content: space-between;
+}
+
+.social-network__instagram {
+display: block;
 background: url(Img/INST.png);    
 width: 43px;  
 height: 43px;
 }
 
-.group__vk {
-display: flex;
-margin-left: 12px;
+.social-network__vk {
+display: block;    
 background: url(Img/VK.png);
 width: 43px; 
 height: 43px;   
 }
 
-.group__fb {
-display: flex;
-margin-left: 12px;
+.social-network__fb {
+display: block;   
 background: url(Img/FB.png);
 width: 43px;
 height: 43px;    
 }
 
 .group__scrool {
-display: flex;
-margin-left: 502px;
 background: no-repeat url(Img/Rectangle\ 8.svg) center , no-repeat url(Img/Rectangle\ 9.svg) center top 10px;
 width: 27px; 
 height: 46px;   
@@ -227,7 +215,7 @@ position: relative;
 width: 488px;
 height: 556px;
 background-color:#FFF;
-left: 879px;
+left: 700px;
 top: 169px;
 }
 

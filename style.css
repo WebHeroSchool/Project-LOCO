@@ -9,13 +9,12 @@ height: 900px;
 background-image: linear-gradient(to right, black 32%, white 32%, white 68%);}
 
 .header {
-margin: auto;
 display: flex;
 justify-content: space-between;
 }
 
 .header-box {
-width: 489px;
+width: 32%;
 display: flex;
 justify-content: space-between;
 }
@@ -31,7 +30,7 @@ color: #FFF;
 
 .header-container {
 display: flex;
-width: 100px;
+width: 72px;
 justify-content: flex-start;
 }
 
@@ -50,7 +49,12 @@ border-top: 2px solid #FFF;
 border-right: 2px solid #FFF;
 transform: rotate(135deg);}
 
-.header__nav {display: block;width: 92px;height: 92px;background: #ebe9e9;}
+.header__nav {
+display: block;
+width: 92px;
+height: 92px;
+background: #ebe9e9;
+}
 
 .menu__button {
 display: block;
@@ -77,67 +81,29 @@ top: 10px;
 width: 34px;
 }
 
-.main {display: flex;justify-content: space-around;}
+.main {height: 64%;display: flex;justify-content: space-between;margin-bottom: 129px;}
 
-.photo {display: block;background-position: center;}
+.photo {width: 49%;height: 109%;background: no-repeat url(img/mask_group.svg)left 59px;margin-left: 186px;}
 
-.photo__img {
+.home-page {display: flex;flex-direction: column;padding-left: 18px;}
+
+.home-page__header {font: 92px/83px montserratbold, arial, helvetica, sans-serif;font-weight: bold;margin-top: 26%;margin-bottom: 0;}
+
+.home-page__paragraph {font: 17px/21px montserratmedium, arial, helvetica, sans-serif;max-width: 467px;margin-top: 7px;margin-bottom: 38px;}
+
+.buttons {
 display: block;
-position: relative;
-background-position: center;}
-
-.home-page {
-display: block;
-justify-content: center;
-width: 488px;
-height: 556px;
 }
 
-.home-page__header {
-font: 92px/83px montserratbold, arial, helvetica, sans-serif;
-font-weight: bold; 
-}
+.buttons__button {margin-right: 46px;display: inline-block;font: 15px/ 21px montserratmedium, arial, helvetica, sans-serif;width: 203px;height: 44px;border: 1.5px solid #000000;line-height: 44px;font-size: 13px;text-decoration: none;color:#000;text-align: center;}
 
-.home-page__paragraph {
-font: 17px/21px montserratmedium, arial, helvetica, sans-serif;  
-max-width: 467px; 
-}
+.buttons__link {margin-right: 13px;display: inline-block;font:14px/14px montserratmedium, arial, helvetica, sans-serif;width: 172px;color: #000;text-decoration: none;}
 
-.home-page__button {
-display: inline-block;    
-font: 15px/ 21px montserratmedium, arial, helvetica, sans-serif;
-width: 203px;
-height: 44px;
-border: 1.5px solid #000000;
-line-height: 44px;
-font-size: 13px;
-text-decoration: none;
-color:#000;
-text-align: center;
-}
 
-.home-page__link {
-display: inline-block;
-font:14px/14px montserratmedium, arial, helvetica, sans-serif;
-width: 172px;
-color: #000;
-text-decoration: none; 
-}
 
-.home-page__arrow {
-cursor: pointer;
-width: 75px;
-height: 48px;
-}
+.buttons__arrow div {margin-bottom: 4px;display: inline-block;position: relative;width: 43px;height: 1px;background-color: #000;}
 
-.home-page__arrow div {
-display: block;
-width: 43px;
-height: 1px;
-background-color: #000;
-}
-
-.home-page__arrow div::after {
+.buttons__arrow div::after {
 content: '';
 position: absolute;
 width: 7px;
@@ -148,7 +114,7 @@ background-color: #000;
 transform: rotate(45deg);
 }
 
-.home-page__arrow div::before {
+.buttons__arrow div::before {
 content: '';
 position: absolute;
 width: 7px;
@@ -169,19 +135,9 @@ display: flex;
 justify-content: space-between;
 }
 
-.social-network__instagram {
-display: block;
-background: url(Img/INST.png);    
-width: 43px;  
-height: 43px;
-}
+.social-network__instagram {margin-left: 52px;margin-right: 12px;display: block;background: url(Img/INST.png);width: 43px;height: 43px;}
 
-.social-network__vk {
-display: block;    
-background: url(Img/VK.png);
-width: 43px; 
-height: 43px;   
-}
+.social-network__vk {margin-right: 12px;display: block;background: url(Img/VK.png);width: 43px;height: 43px;}
 
 .social-network__fb {
 display: block;   
@@ -190,11 +146,7 @@ width: 43px;
 height: 43px;    
 }
 
-.group__scrool {
-background: no-repeat url(Img/Rectangle\ 8.svg) center , no-repeat url(Img/Rectangle\ 9.svg) center top 10px;
-width: 27px; 
-height: 46px;   
-}
+.group__scrool {margin-right: 204px;background: no-repeat url(Img/Rectangle\ 8.svg) center , no-repeat url(Img/Rectangle\ 9.svg) center top 10px;width: 27px;height: 46px;}
 
 .wrapper {
 display: flex;    

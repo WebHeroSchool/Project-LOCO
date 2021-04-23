@@ -8,7 +8,7 @@ margin: auto;
 height: 900px;
 background-image: linear-gradient(to right, black 32%, white 32%, white 68%);}
 
-.header {display: flex;justify-content: space-between;margin-bottom: 59px;}
+.header {display: flex;justify-content: space-between;margin-bottom: 60px;}
 
 .header-box {
 width: 32%;
@@ -67,9 +67,13 @@ top: 10px;
 width: 34px;
 }
 
-.main {height: 63% ;display: flex;justify-content: space-around;margin-bottom: 80px; padding-left: 187px;}
+.main {height: 63%;display: flex;justify-content: space-around;margin-bottom: 80px;padding-left: 186px;}
 
-.home-page {display: flex;flex-direction: column;align-items: unset;padding-left: 52px;}
+.main__photo {display: block;background: no-repeat url(images/1\ блок.svg);width: 69%;height: 100%;background-size: contain;}
+
+.home-page {display: flex;flex-direction: column;align-items: unset;margin-right: 103px;
+margin-top: 16px;
+}
 
 .home-page__header {font: 92px/80px montserratbold, arial, helvetica, sans-serif;font-weight: bold;margin-top: 17%;margin-bottom: 7px;}
 
@@ -139,12 +143,7 @@ background: #FAE8E4;
 
 .container {display:flex;justify-content: space-around;width: 95%;}
 
-.container__photo {
-display: block;
-background: no-repeat url(images/2\ блок\ 2.svg) left 233px top 29px, no-repeat url(images/2\ блок.svg) left 123px bottom 193px;
-width: 90%;
-height: 90%;
-}
+.container__photo {display: block;background: no-repeat url(images/2\ блок\ 2.svg) left 233px top 29px, no-repeat url(images/2\ блок.svg) left 123px bottom 193px;width: 90%;height: 86%;}
 
 .container__base {display: flex;flex-direction: column;align-items: center;background-color:#FFF;height: 556px; width: 50%; margin-top: 167px;border-right: 25px;}
 
@@ -195,16 +194,11 @@ height: 900px;
 background: linear-gradient(to right,#EBE3D8 27%, #000 27%, #000 32%, #EBE3D8 32%);
 }
 
-.content {display: flex; width: 100%;height: 96%;}
+.content {display: flex;width: 100%;height: 96%;}
 
-.content__photo {
-display: flex;    
-width: 100%;
-height: 100%;    
-background:no-repeat url(images/3\ блок\ 2.svg) left 87px top 139px;
-}
+.content__photo {background: no-repeat url(images/3\ блок\ 2.svg) top 139px left 88px;background-size: contain;display: flex;width: 90%;height: 90%;}
 
-.content__rectangle {display: flex;flex-direction: column;align-items: center;width: 49%;height: 40%;background: #FAE8E4;position: relative;z-index: 2;top: 255px;right: 150px;right: 150px;}
+.content__rectangle {display: flex;flex-direction: column;align-items: center;width: 44%;height: 40%;background: #FAE8E4;position: relative;z-index: 2;top: 255px;right: 150px;right: 150px;}
 
 .content__rectangle__header {font: 40px/40px montserratbold, arial, helvetica, sans-serif;margin-top: 42px;margin-bottom: 11px;}
 
@@ -212,7 +206,7 @@ background:no-repeat url(images/3\ блок\ 2.svg) left 87px top 139px;
 
 .content__rectangle__paragraph {font: 15px/22px montserratregular, arial, helvetika, sans-serif;opacity: 50%;margin-right: 69px;margin-bottom: 54px;}
 
-.buttons-shopping {display: flex;justify-content: space-between;width: 100%;margin-bottom: 82px;/* margin-left: 98px; *//* margin-right: 12px; */}
+.buttons-shopping {display: flex;justify-content: space-between;width: 100%;margin-bottom: 82px;}
 
 .buttons-shopping__quantity {display: inline-block;font: 15px/0px montserratmedium, arial, helvetica, sans-serif;width: 100px;height: 44px;line-height: 44px;border: 1.5px solid #000000;box-sizing: border-box;text-decoration: none;color:#000;text-align: center;margin-left: 50px;}
 
@@ -246,15 +240,12 @@ background-color: #000;
 transform: rotate(-45deg);
 }
 
-.content__footer {display: flex;justify-content: flex-end;font: 12px/14px montserratbold, arial, helvetica, sans-serif;font-weight: normal;text-decoration: none;color: #000;top: 300px;margin-right: 68px;}
+.footer {display: flex;justify-content: flex-end;margin-right: 20px;}
 
-.main__title-text_highlight {
-color: #FFD22E;    
-}
+.content__footer {display: block;font: 12px/14px montserratbold, arial, helvetica, sans-serif;font-weight: normal;text-decoration: none;margin-right: 17px;}
 
-.School {
-    display: flex;justify-content: flex-end;font: 10px/9px montserratbold, arial, helvetica, sans-serif;font-weight: normal;text-decoration: none;color: #000;margin-right: 20px;
-}
+.footer__photo {background: no-repeat url(images/Маленький\ желто-белый-svg.svg);width: 82px;height: 22px;}
+
 
 
 

@@ -418,6 +418,7 @@ width: 100%;
 height: 96%;
 align-items: center;
 justify-content: space-around;
+position: relative;
 }
 
 .content__photo {
@@ -425,10 +426,10 @@ background: no-repeat url(images/3\ блок\ 2.svg);
 width: 60%;
 height: 72%;
 margin-top: 35px;
-margin-left: 83px;
+margin-right: 400px;
 }
 
-.goods {display: flex;flex-direction: column;align-items: center;width: 33%;height: 40%;background: #FAE8E4;}
+.goods {display: flex;flex-direction: column;align-items: center;width: 33%;height: 40%;background: #FAE8E4; position: absolute;margin-left: 670px;margin-bottom: 8px;}
 
 .goods__header {font: 40px/40px montserratbold, arial, helvetica, sans-serif;margin-top: 42px;margin-bottom: 11px;margin-right: 10px;}
 

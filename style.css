@@ -1789,11 +1789,11 @@ height: 598px;
 }  
 
 .wrapper {
-height: 596px;    
+display: none;    
 }
 
 .wrappering {
-height: 595px; 
+display: none;
 }
 
 .header-box__logo {
@@ -1953,5 +1953,20 @@ margin-left: 143px;
 width: 133px;
 margin-top: 11px;
 margin-left: 144px;
+}
+
+
+.menu__checkbox:checked ~ .menu__button > span {
+transform: rotate(45deg);
+}
+      
+.menu__checkbox:checked ~ .menu__button > span::before {
+transform: rotate(0);
+top: 0;
+}
+      
+.menu__checkbox:checked ~ .menu__button > span::after {
+transform: rotate(90deg);
+top: 0;
 }
 }

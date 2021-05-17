@@ -147,6 +147,13 @@ line-height: 44px;
 text-decoration: none;
 color:#000;
 text-align: center;
+transition: all 500ms ease
+}
+
+.buttons__button:hover {
+background: rgba(0,0,0,0);
+color: #F29F9F;
+box-shadow: inset 0 0 0 3px #F29F9F;    
 }
 
 .buttons__link {
@@ -159,6 +166,10 @@ color: #000;
 text-decoration: none;
 }
 
+.buttons__link:hover {
+opacity: 0.5;
+}
+
 .buttons__arrow div {
 margin-bottom: 7px;
 display: inline-block;
@@ -166,6 +177,10 @@ position: relative;
 width: 43px;
 height: 1px;
 background-color: #000;
+}
+
+.buttons__arrow div:hover {
+opacity: 0.5;
 }
 
 .buttons__arrow div::after {
@@ -313,6 +328,13 @@ text-decoration: none;
 color:#000;
 text-align: center;
 margin-left: 41px;
+transition: all 500ms ease;
+}
+
+.btn-shopping__quantity:hover {
+background: rgba(0,0,0,0);
+color: #F29F9F;
+box-shadow: inset 0 0 0 3px #F29F9F;     
 }
 
 .btn-shopping__button {
@@ -328,7 +350,14 @@ text-decoration: none;
 color:#000;
 text-align: center;
 margin-right: 60px;
+transition: all 500ms ease;
 }  
+
+.btn-shopping__button:hover {
+background: rgba(0,0,0,0);
+color: #F29F9F;
+box-shadow: inset 0 0 0 3px #F29F9F; 
+}
 
 .buttons-ref__link {
 font-family:montserratmedium, arial, helvetica, sans-serif;
@@ -336,6 +365,10 @@ font-size: 13px;
 color: #000;
 text-decoration: none;
 margin-right: 18px;
+}
+
+.buttons-ref__link:hover {
+opacity: 0.5;    
 }
     
 .buttons-ref__arrow div {
@@ -345,6 +378,10 @@ width: 241px;
 height: 1px;
 background-color: #000;
 margin-bottom: 7px;
+}
+
+.buttons-ref__arrow div:hover {
+opacity: 0.5;    
 }
 
 .buttons-ref {
@@ -501,7 +538,14 @@ text-decoration: none;
 color:#000;
 text-align: center;
 margin-left: 30px;
+transition: all 500ms ease;
 }
+
+.buttons-shopping__quantity:hover {
+background: rgba(0,0,0,0);
+color: #F29F9F;
+box-shadow: inset 0 0 0 3px #F29F9F;     
+} 
 
 .buttons-shopping__button {
 display: inline-block;
@@ -516,6 +560,13 @@ text-decoration: none;
 color:#000;
 text-align: center;
 margin-right: 52px;
+transition: all 500ms ease;
+}
+
+.buttons-shopping__button:hover {
+background: rgba(0,0,0,0);
+color: #F29F9F;
+box-shadow: inset 0 0 0 3px #F29F9F; 
 }
 
 .btn-ref {
@@ -532,12 +583,20 @@ text-decoration: none;
 margin-left: 121px;
 }
 
+.btn-ref__link:hover {
+opacity: 0.5;    
+}
+
 .btn-ref__arrow div {
 position: relative;
 width: 108px;
 height: 1px;
 background-color: #000;
 margin-top: 7px;
+}
+
+.btn-ref__arrow div:hover {
+opacity: 0.5;    
 }
         
 .btn-ref__arrow div::after {
@@ -1369,7 +1428,7 @@ height: 69px;
 }
 
 .menu__button {
-padding: 27px 0 0 20px;    
+padding: 30px 0 0 20px;    
 }
 
 .header {
@@ -1788,10 +1847,6 @@ font-size: 10px;
 height: 598px;    
 }  
 
-.wrapper {
-display: none;    
-}
-
 .wrappering {
 display: none;
 }
@@ -1809,21 +1864,6 @@ width: 86%;
 
 .home-page__header {
 margin-top: 6%;    
-}
-
-.menu__button {
-padding: 31px 0 0 22px;
-}
-
-.menu__button > span, .menu__button > span::before {
-width: 26px;
-height: 2px;
-}
-
-.menu__button > span::before {
-content: '';
-top: 7px;
-width: 26px;
 }
 
 .main {
@@ -1955,18 +1995,61 @@ margin-top: 11px;
 margin-left: 144px;
 }
 
+.menu__button {
+display: flex;
+align-items: center;
+position: fixed;
+width: 26px;
+height: 26px;
+cursor: pointer;
+padding: 19px 0 0 21px;
+z-index: 1;
+}
+    
+.menu__button > span,
+.menu__button > span::before
+.menu__button > span::after {
+display: block;
+position: absolute;
+width: 100%;
+height: 2px;
+background-color: #000;
+}
+
+.menu__button > span, .menu__button > span::before {
+content: '';    
+width: 26px;
+height: 2px;
+}
+
+.menu__button > span::after {
+content: '';
+top: 10px;
+width: 26px;
+}
+    
+.wrapper {
+display: block;
+position: fixed;
+visibility: hidden;
+width: 100%;
+height: 100%;
+margin: 0;
+}
+
 
 .menu__checkbox:checked ~ .menu__button > span {
 transform: rotate(45deg);
 }
-      
+          
 .menu__checkbox:checked ~ .menu__button > span::before {
-transform: rotate(0);
+transform: rotate(90deg);
 top: 0;
 }
-      
-.menu__checkbox:checked ~ .menu__button > span::after {
-transform: rotate(90deg);
+          
+   
+.menu__checkbox:checked ~ .wrapper {
+visibility: visible;
 top: 0;
 }
 }

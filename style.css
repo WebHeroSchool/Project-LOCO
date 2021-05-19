@@ -1,76 +1,76 @@
 body {
-  display:block;
-  margin: 0;
+  display:  block;
+  margin:  0;
 }
 .wrap {
-  margin: auto;
-  height: 900px;
-  background-image: linear-gradient(to right, black 32%, white 32%, white 68%);
+  margin:  auto;
+  height:  900px;
+  background-image:  linear-gradient(to right,  black 32%,  white 32%,  white 68%);
 }
 .header {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 60px;
+  display:  flex;
+  justify-content:  space-between;
+  margin-bottom:  60px;
 }
 .header-box {
-  width: 32%;
+  width:  32%;
   display: flex;
   justify-content: space-between;
 }
 .header-box__logo {
-  position: relative;
+  position:  relative;
   display: block;
-  padding: 36px 0 36px 53px;
-  font-family: montserratmedium, arial, helvetica, sans-serif;
+  padding:  36px 0 36px 53px;
+  font-family:  montserratmedium, arial, helvetica, sans-serif;
   font-size: 30px;
-  color: #FFF;
+  color:  #FFF;
 }
 .header-container {
   display: flex;
-  width: 103px;
-  justify-content: center;
+  width:  103px;
+  justify-content:  center;
 }
 .header-container__language {
   font-family:montserratmedium, arial, helvetica, sans-serif;
   font-size: 20px;
   color:#FFF;
-  margin-left: 8px;
+  margin-left:  8px;
   padding: 41px 0;
 }
 .header-container__arrow {
-  margin: 50px 0 0 6px;
-  width: 8px;
-  height: 7px;
-  border-top: 2px solid #FFF;
-  border-right: 2px solid #FFF;
-  transform: rotate(135deg);
+  margin:  50px 0 0 6px;
+  width:  8px;
+  height:  7px;
+  border-top:  2px solid #FFF;
+  border-right:  2px solid #FFF;
+  transform:  rotate(135deg);
 }
 .header-nav {
   display: flex;  
   justify-content: center;  
-  width: 92px;
-  height: 92px;
-  background: #ebe9e9;    
+  width:  92px;
+  height:  92px;
+  background:  #ebe9e9;    
 }
 .menu__button {
-  padding-top: 40px;    
+  padding-top:  40px;    
   display: block;
-  cursor: pointer;
+  cursor:  pointer;
 }
 .menu__checkbox {
-  display: none;
+  display:  none;
 }
 .menu__button > span,
 .menu__button > span::before {
   display: block;
   position: relative;
-  width: 34px;
-  height: 3px;
-  background-color: #000000;
+  width:  34px;
+  height:  3px;
+  background-color:  #000000;
 }
 .menu__button > span::before {
-  content: '';
-  top: 10px;
+  content:  '';
+  top:  10px;
   width: 34px;
 }
 .menu__checkbox:checked ~ .menu__button > span {
@@ -119,15 +119,15 @@ body {
   transition-duration: .01s;
 }
 .main {
-  height: 63%;
+  height:  63%;
   display: flex;
-  justify-content: space-around;
-  margin-bottom: 80px;
-  padding-left: 187px;
+  justify-content:  space-around;
+  margin-bottom:  80px;
+  padding-left:  187px;
 }
 .main__photo {
   display: block;
-  background: no-repeat url(images/1\ блок.svg);
+  background:  no-repeat url(images/1\ блок.svg);
   width: 55%;
   height: 100%;
   background-size: contain;
@@ -258,7 +258,7 @@ body {
 .container {
   display:flex;
   justify-content: space-around;
-  width: 100%;
+  width:  100%;
 }
 .container__photo {
   display: block;
@@ -1171,7 +1171,7 @@ body {
     background-image: linear-gradient(to right,  white 100%, white 100%);
   }
   .header-box__logo {
-    font: 30px/36px montserratmedium, arial, helvetica, sans-serif;    
+    font:  30px/36px montserratmedium, arial, helvetica, sans-serif;    
   }
   .header-container__arrow {
     color: #000;
@@ -1349,7 +1349,7 @@ body {
     margin-left: 110px;
   }    
   .btn-ref__arrow div {
-    width: 60px;
+    width:  60px;
   }
 }
 @media (max-width:525px) {
@@ -1366,7 +1366,7 @@ body {
     height: 369px;    
   }
   .bags__header {
-    font:24px/24px montserratbold, arial, helvetica, sans-serif; 
+    font: 24px/24px montserratbold, arial, helvetica, sans-serif; 
     margin: 26px 144px 8px 0;   
   }
   .bags__line {

@@ -62,7 +62,7 @@ body {
   display:  none;
 }
 .menu__button > span,
-.menu__button > span::before {
+.menu__button > span:before {
   display: block;
   position: relative;
   width:  34px;

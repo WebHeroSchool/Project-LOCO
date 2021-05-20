@@ -37,14 +37,16 @@ justify-content: center;
 }
 
 .header-container__language {
-font: 20px/24px montserratmedium, arial, helvetica, sans-serif;
+font-family:montserratmedium, arial, helvetica, sans-serif;
+font-size: 20px;
 color:#FFF;
-padding: 43px 0;
+margin-left: 8px;
+padding: 41px 0;
 }
 
 .header-container__arrow {
 margin-top: 50px;
-margin-left: 8px;
+margin-left: 6px;
 width: 8px;
 height: 7px;
 border-top: 2px solid #FFF;
@@ -98,6 +100,7 @@ background: no-repeat url(images/1\ блок.svg);
 width: 64%;
 height: 99%;
 background-size: contain;
+padding-right: 80px;
 }
 
 .home-page {
@@ -112,14 +115,25 @@ margin-top: 16px;
 font: 80px/81px montserratbold, arial, helvetica, sans-serif;
 font-weight: bold;
 margin-top: 16%;
+}
+
+.home-page__header {
+font-family:montserratbold, arial, helvetica, sans-serif;
+font-size: 80px;
+line-height: 82px;
+margin-top: 18%;
 margin-bottom: 7px;
+padding-left: 9px;
 }
 
 .home-page__paragraph {
-font: 17px/21px montserratmedium, arial, helvetica, sans-serif;
+font-family:montserratregular, arial, helvetica, sans-serif;
+font-size: 15px;
+line-height: 21px;
 max-width: 467px;
 margin-top: 7px;
-margin-bottom: 38px;
+margin-bottom: 39px;
+padding-left: 9px;
 }
 
 .buttons {
@@ -127,30 +141,32 @@ display: block;
 }
 
 .buttons__button {
-margin-right: 46px;
+margin-right: 52px;
+margin-left: 5px;
 display: inline-block;
-font: 15px/ 21px montserratmedium, arial, helvetica, sans-serif;
-width: 203px;
+font-family:montserratmedium, arial, helvetica, sans-serif;
+font-size: 13px;
+width: 200px;
 height: 44px;
 border: 1.5px solid #000000;
 line-height: 44px;
-font-size: 13px;
 text-decoration: none;
 color:#000;
 text-align: center;
 }
 
 .buttons__link {
-margin-right: 13px;
+margin-right: 10px;
 display: inline-block;
-font:14px/14px montserratmedium, arial, helvetica, sans-serif;
+font-family:montserratmedium, arial, helvetica, sans-serif;
+font-size: 13px;
 width: 172px;
 color: #000;
 text-decoration: none;
 }
 
 .buttons__arrow div {
-margin-bottom: 4px;
+margin-bottom: 7px;
 display: inline-block;
 position: relative;
 width: 43px;
@@ -236,7 +252,7 @@ width: 100%;
 
 .container__photo {
 display: block;
-background: no-repeat url(images/2\ блок\ 2.svg) left 233px top 29px, no-repeat url(images/2\ блок.svg) left 123px bottom 193px;
+background: no-repeat url(images/2\ блок\ 2.svg) left 233px top 29px, no-repeat url(images/2\ блок.svg) left 123px bottom 147px;
 width: 90%;
 height: 85%;
 }
@@ -256,24 +272,27 @@ box-shadow: 4px 10px 15px rgb(0 0 0 / 25%);
 
 .bags__header {
 display: block;
-font: 44px/38px montserratbold, arial, helvetica, sans-serif;
-font-weight: bold;
-margin: 50px 38px 10px 0px;
+font-family:montserratbold, arial, helvetica, sans-serif;
+font-size: 40px;
+margin: 42px 42px 9px 0px;
 }
 
 .bags__line {
 display: block;
-font: 19px/23px montserratbold, arial, helvetica, sans-serif;
-font-weight: bold;
+font-family: montserratbold, arial, helvetica, sans-serif;
+font-size: 16px;
+line-height: 17px;
 color: #000;
 opacity: 0.5;
-margin-bottom: 59px;
-margin-right: 159px;
+margin-bottom: 62px;
+margin-right: 176px;
 }
 
 .bags__paragraph {
 display: block;
-font:16px/21px montserratmedium, arial, helvetica, sans-serif;
+font-family:montserratregular, arial, helvetica, sans-serif;
+font-size: 15px;
+line-height: 21px;
 color: #000;
 max-width: 368px;
 opacity: 0.5;
@@ -285,7 +304,7 @@ margin-right: 10px;
 display: flex;
 justify-content: space-evenly;
 width: 103%;
-margin-bottom: 86px;
+margin-bottom: 84px;
 }
 
 .btn-shopping__quantity {
@@ -304,7 +323,8 @@ margin-left: 41px;
 
 .btn-shopping__button {
 display: inline-block;
-font: 14px/0px montserratmedium, arial, helvetica, sans-serif;
+font-family:montserratmedium, arial, helvetica, sans-serif;
+font-size: 13px;
 width: 253px;
 height: 44px;
 line-height: 44px;
@@ -313,14 +333,15 @@ box-sizing: border-box;
 text-decoration: none;
 color:#000;
 text-align: center;
-margin-right: 56px;
+margin-right: 60px;
 }  
 
 .buttons-ref__link {
-font:14px/15px montserratmedium, arial, helvetica, sans-serif;
+font-family:montserratmedium, arial, helvetica, sans-serif;
+font-size: 13px;
 color: #000;
 text-decoration: none;
-margin-right: 15px;
+margin-right: 18px;
 }
     
 .buttons-ref__arrow div {
@@ -428,47 +449,96 @@ margin-top: 35px;
 margin-left: 83px;
 }
 
+
 .goods {display: flex;flex-direction: column;align-items: center;width: 33%;height: 40%;background: #FAE8E4;}
 
-.goods__header {font: 40px/40px montserratbold, arial, helvetica, sans-serif;margin-top: 42px;margin-bottom: 11px;margin-right: 10px;}
+.goods {
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 33%;
+height: 40%;
+background: #FAE8E4;
+position: absolute;
+left: 57%;
+top: 250px;
+}
+
+.goods__header {
+font-family:montserratbold, arial, helvetica, sans-serif;
+font-size: 40px;
+margin-top: 39px;
+margin-bottom: 8px;
+margin-right: 10px;
+}
+
 
 .goods__line {
-font: 16px/16px montserratbold, arial, helvetica, sans-serif;
-font-weight: bold;
+font-family:montserratbold, arial, helvetica, sans-serif;
+font-size: 16px;
+letter-spacing: 1px;
 opacity: 50%;
-margin-right: 190px;
-margin-bottom: 34px;
+margin-right: 169px;
+margin-bottom: 33px;
 }
 
 .goods__paragraph {
-font: 15px/22px montserratregular, arial, helvetika, sans-serif;
+font: 15px/20px montserratregular, arial, helvetika, sans-serif;
+max-width: 361px;
 opacity: 50%;
-margin-right: 69px;
-margin-bottom: 54px;
+margin-right: 20px;
+margin-bottom: 59px;
 }
 
 .buttons-shopping {
 display: flex;
 justify-content: space-evenly;
 width: 100%;
-margin-bottom: 82px;
+margin-bottom: 83px;
 }
 
-.buttons-shopping__quantity {display: inline-block;font: 15px/0px montserratmedium, arial, helvetica, sans-serif;width: 100px;height: 44px;line-height: 44px;border: 1.5px solid #000000;box-sizing: border-box;text-decoration: none;color:#000;text-align: center;margin-left: 30px;}
+.buttons-shopping__quantity {
+display: inline-block;
+font-family:montserratmedium, arial, helvetica, sans-serif;
+font-size: 13px;
+width: 100px;
+height: 44px;
+line-height: 44px;
+border: 1.5px solid #000000;
+box-sizing: border-box;
+text-decoration: none;
+color:#000;
+text-align: center;
+margin-left: 30px;
+}
 
-.buttons-shopping__button {display: inline-block;font:13px/0px montserratmedium, arial, helvetica, sans-serif;width: 253px;height: 44px;line-height: 44px;border: 1.5px solid #000000;box-sizing: border-box;text-decoration: none;color:#000;text-align: center;margin-right: 44px;}
+.buttons-shopping__button {
+display: inline-block;
+font-family:montserratmedium, arial, helvetica, sans-serif;
+font-size: 13px;
+width: 253px;
+height: 44px;
+line-height: 44px;
+border: 1.5px solid #000000;
+box-sizing: border-box;
+text-decoration: none;
+color:#000;
+text-align: center;
+margin-right: 52px;
+}
 
 .btn-ref {
 display: flex;
 justify-content: space-between;
-width: 100%;
+width: 98%;
 }
 
 .btn-ref__link {
-font:13px/15px montserratmedium, arial, helvetica, sans-serif;
+font-family:montserratmedium, arial, helvetica, sans-serif;
+font-size: 13px;
 color: #000;
 text-decoration: none;
-margin-left: 135px;
+margin-left: 121px;
 }
 
 .btn-ref__arrow div {
@@ -509,8 +579,8 @@ margin-right: 20px;
 
 .footer__content {
 display: block;
-font: 12px/14px montserratbold, arial, helvetica, sans-serif;
-font-weight: normal;
+font-family:montserratbold, arial, helvetica, sans-serif;
+font-size: 12px;
 text-decoration: none;
 margin-right: 17px;
 }
@@ -524,18 +594,21 @@ height: 22px;
 @media (max-width:1350px) {
 
 .main {
-padding-left: 105px;
+padding-left: 95px;
 }
 
 .main__photo {
-height: 97%;
+height: 95%;
 }
+
 .home-page {
 margin-right: 80px;    
 }
+
 .group__scrool {
 margin-right: 264px;
 }
+
 .container__photo {
 background: no-repeat url(images/2\ блок\ 2.svg) left 165px top 29px, no-repeat url(images/2\ блок.svg) left 62px bottom 193px;
 width: 90%;
@@ -563,6 +636,7 @@ margin-right: 10px;
 }
 }
 
+
 @media (max-width:1310px) {
 
 .content__photo {
@@ -578,7 +652,8 @@ margin-right: 28px;
 
 .main__photo {
 height: 92%;
-width: 69%;    
+width: 69%; 
+padding-right: 40px;   
 }    
 
 .home-page {
@@ -592,6 +667,18 @@ margin-right: 18px;
 background: no-repeat url(images/2\ блок\ 2.svg) left 98px top 29px, no-repeat url(images/2\ блок.svg) left 0px bottom 193px;    
 }
 
+.goods__header {
+font-size: 38px;    
+}
+
+.goods__line {
+margin-right: 145px;   
+}
+
+.goods__paragraph {
+margin-right: 0;    
+}
+
 .btn-shopping__button {
 margin-right: 0px;
 width: 230px;
@@ -602,11 +689,7 @@ margin-left: 0px;
 }
 
 .buttons-shopping__button {
-margin-right: 0px;    
-}
-
-.buttons-shopping__quantity {
-margin-left: 0px;    
+margin-right: 35px;    
 }
 
 .buttons-ref__link {
@@ -629,8 +712,13 @@ margin-left: 50px;
 padding-left: 45px;    
 }   
 .main__photo {
-width: 75%;    
+width: 75%; 
+padding-right: 0px;   
 } 
+
+.buttons__button {
+margin-right: 25px;    
+}
 
 .group__scrool {
 margin-right: 126px;
@@ -638,11 +726,13 @@ margin-right: 126px;
 
 .bags {
 margin-right: 57px;  
-font: 40px/38px montserratbold, arial, helvetica, sans-serif;  
+font: 40px/38px montserratbold, arial, helvetica, sans-serif; 
+height: 536px;
 }
 
 .bags__header {
-margin-right: 6px;    
+font: 36px/38px montserratbold, arial, helvetica, sans-serif;     
+margin-right: 10px;    
 }
 
 .bags__line {
@@ -652,7 +742,7 @@ margin-right: 118px;
 .bags__paragraph {
 font: 15px/20px montserratmedium, arial, helvetica, sans-serif;    
 margin-right: 0px;
-padding-left: 25px;    
+padding-left: 10px;    
 }
 
 .buttons-shopping {
@@ -679,18 +769,24 @@ background-repeat: no-repeat;
 background-position:left 98px top 29px, left 0px bottom 193px;
 background-size: 582px 844px,398px 415px;   
 }
+  
 .buttons-ref__link {
 margin-right: 18px;    
+}
+
+.goods {
+height: 37%;    
 }
 
 .goods__header {
 font: 35px/25px montserratbold, arial, helvetica, sans-serif;    
 }
 .goods__line {
-margin-right: 137px;
+margin-right: 119px;
 }
 .goods__paragraph {
-margin-right: 15px;    
+max-width: 325px;    
+font-size: 14px;    
 }
 
 .buttons__shoppig {
@@ -719,20 +815,21 @@ padding-left: 25px;
 }
 
 .home-page {
-margin-right: 30px;    
+margin-right: 18px;    
 }
 
 .home-page__header {
-font: 92px/80px montserratbold, arial, helvetica, sans-serif;
+font: 75px/80px montserratbold, arial, helvetica, sans-serif;
 margin-top: 13%;
+padding-left: 0;
 }
 
 .home-page__paragraph {
-font: 16px/21px montserratmedium, arial, helvetica, sans-serif;    
+font: 14px/21px montserratmedium, arial, helvetica, sans-serif;    
 }
 
 .main__photo {
-height: 87%;    
+height: 85%;    
 }
 
 .group__scrool {
@@ -756,6 +853,24 @@ font:12px/14px montserratmedium, arial, helvetica, sans-serif
 width: 89%;    
 }
 
+.goods {
+top: 215px;    
+}
+
+.goods__header {
+font:33px/24px montserratbold, arial, helvetica, sans-serif    
+}
+
+.goods__line {
+margin-right: 113px; 
+font-size: 15px;   
+}
+
+.goods__paragraph {
+font-size: 14px; 
+max-width: 318px;   
+}
+
 .buttons-ref__arrow div {
 width: 150px;    
 }
@@ -773,7 +888,7 @@ padding-left: 42px;
 }    
 
 .main__photo {
-height: 78%;    
+height: 74%;    
 }    
 
 .home-page {
@@ -781,12 +896,7 @@ margin-right: 18px;
 }
 
 .home-page__header {
-font: 85px/80px montserratbold, arial, helvetica, sans-serif;
 margin-top: 6%;    
-}
-
-.home-page__paragraph {
-font: 15px/22px montserratmedium, arial, helvetica, sans-serif;    
 }
 
 .group__scrool {
@@ -798,23 +908,24 @@ background-size: 469px 800px,352px 434px;
 }
 
 .bags {
-height: 506px;   
+height: 454px;   
 width: 56%; 
-margin-right: 21px;
+margin-right: 57px;
 }
 
 .bags__header {
-font: 43px/38px montserratbold, arial, helvetica, sans-serif; 
-margin-right: 23px;   
+margin-right: 17px;
+font-size: 38px;  
 }
 
 .bags__line {
-margin-right: 103px; 
+margin-right: 134px; 
 margin-bottom: 38px;   
 }
 
 .bags__paragraph {
 font: 14px/19px montserratmedium, arial, helvetica, sans-serif;
+margin-bottom: 21px;
 }
 
 .btn-shopping__quantity {
@@ -830,21 +941,21 @@ width: 129px;
 }
 
 .content__photo {
-margin-top: 244px;
+margin-top: 70px;
 }
 
 .goods__header {
-font: 30px/25px montserratbold, arial, helvetica, sans-serif;    
+font-size: 28px;    
 }
 
 .goods__line {
-font:15px/16px montserratbold, arial, helvetica, sans-serif; 
-margin-right: 100px;   
+margin-right: 65px;   
 }
 
 .goods__paragraph {
-font: 14px/20px montserratregular, arial, helvetika, sans-serif;
+font-size: 12px;    
 margin-right: 0px;
+max-width: 274px;
 }
 
 .btn-ref {
@@ -873,7 +984,7 @@ width: 105%;
 }
 }
 
-@media (max-width:940px) {
+@media (max-width:941px) {
 
 .header {
 margin-bottom: 114px;
@@ -893,12 +1004,12 @@ margin-right: 22px;
 }
 
 .home-page__header {
-font: 80px/70px montserratbold, arial, helvetica, sans-serif;
+font: 70px/70px montserratbold, arial, helvetica, sans-serif;
 margin-top: 8%;
 }
 
 .home-page__paragraph {
-font: 13px/23px montserratmedium, arial, helvetica, sans-serif;
+font: 12px/21px montserratmedium, arial, helvetica, sans-serif;
 }
 
 .buttons__button {
@@ -917,12 +1028,12 @@ background-size:393px 803px,279px 419px;
 }
 
 .bags__header {
-margin-top: 40px;
-font: 40px/38px montserratbold, arial, helvetica, sans-serif;
+margin-right: 18px;    
+font: 35px/38px montserratbold, arial, helvetica, sans-serif;
 }
 
 .bags__line {
-margin-right: 78px;
+margin-right: 101px;
 margin-bottom: 25px;
 }
 
@@ -975,6 +1086,23 @@ width: 80px;
 font: 12px/15px montserratmedium, arial, helvetica, sans-serif;
 margin-left: 21px;
 }
+
+.goods__header {
+font-size: 27px;    
+}
+
+.goods__line {
+font-size: 14px;    
+}
+
+.goods__paragraph {
+font-size: 11px;
+max-width: 253px;    
+}
+
+.buttons-shopping__button {
+font-size: 11px;    
+}
 }
 
 @media (max-width:891px) {
@@ -988,16 +1116,17 @@ height: 71%;
 }
 
 .home-page__header {
-font: 75px/70px montserratbold, arial, helvetica, sans-serif;
+font: 65px/70px montserratbold, arial, helvetica, sans-serif;
 margin-top: 5%;
 }
 
 .home-page__paragraph {
-font: 12px/20px montserratmedium, arial, helvetica, sans-serif;
+font: 12px/19px montserratmedium, arial, helvetica, sans-serif;
 }
 
 .buttons__button {
 width: 149px;
+margin-right: 10px;
 }
 
 .bags {
@@ -1006,16 +1135,18 @@ margin-top: 221px;
 }
 
 .bags__header {
-margin-right: 4px;
-font: 38px/38px montserratbold, arial, helvetica, sans-serif;
+margin-right: 14px;
+font: 32px/32px montserratbold, arial, helvetica, sans-serif;
 }
 
 .bags__line {
-margin-right: 52px;    
+margin-right: 82px;    
 }
 
 .bags__paragraph {
+font: 13px/19px montserratmedium, arial, helvetica, sans-serif;    
 margin-bottom: 23px;
+max-width: 290px;
 }
 
 .btn-shopping {
@@ -1069,15 +1200,23 @@ font: 26px/25px montserratbold, arial, helvetica, sans-serif;
 }
 
 .goods__line {
-margin-right: 67px;
-}
-
-.goods__paragraph {
-font: 12px/20px montserratregular, arial, helvetika, sans-serif;    
+margin-right: 59px;
 }
 
 .btn-ref__link {
 font: 11px/15px montserratmedium, arial, helvetica, sans-serif;
+}
+
+.buttons-shopping {
+margin-bottom: 51px;    
+}
+
+.buttons-shopping__button {
+font-size: 9px;    
+}
+
+.btn-ref__link {
+font-size: 9px;    
 }
 }
 
@@ -1121,11 +1260,11 @@ font: 10px/15px montserratmedium, arial, helvetica, sans-serif;
 @media (max-width:809px) {
 
 .home-page__header {
-font: 62px/70px montserratbold, arial, helvetica, sans-serif;    
+font: 60px/70px montserratbold, arial, helvetica, sans-serif;    
 }
 
 .home-page__paragraph {
-font: 11px/20px montserratmedium, arial, helvetica, sans-serif;
+font: 10px/20px montserratmedium, arial, helvetica, sans-serif;
 }
 
 .buttons__button {
@@ -1143,11 +1282,12 @@ height: 413px;
 }
 
 .bags__header {
-font: 36px/38px montserratbold, arial, helvetica, sans-serif;    
+margin-right: 5px;
+font: 32px/32px montserratbold, arial, helvetica, sans-serif;    
 }
 
 .bags__line {
-margin-right: 34px;
+margin-right: 70px;
 }
 
 .bags__paragraph {
@@ -1169,11 +1309,13 @@ margin-top: 23px;
 }
 
 .goods__line {
-font: 14px/16px montserratbold, arial, helvetica, sans-serif;
+font-size: 12px;
+margin-right: 64px;
 }
 
 .goods__paragraph {
-font: 11px/20px montserratregular, arial, helvetika, sans-serif;
+font-size: 10px;
+max-width: 227px;
 }
 
 .btn-shopping__quantity {
@@ -1194,7 +1336,11 @@ height: 32%;
 }
 
 .buttons-shopping {
- margin-bottom: 42px;
+margin-bottom: 42px;
+}
+
+.buttons-shopping__button {
+margin-right: 0px;    
 }
 }
 
@@ -1266,7 +1412,6 @@ width: 56%;
 .home-page__header {
 margin-bottom: 63px;
 font: 50px/51px montserratbold, arial, helvetica, sans-serif;
-font-weight: 700;
 }
 
 .main__photo {
@@ -1293,6 +1438,7 @@ font-weight: 700;
 
 .bags__line {
 margin-right: 250px;
+
 }
 
 .bags__paragraph {
@@ -1331,7 +1477,9 @@ width: 478px;
 }
 
 .goods {
-width: 62%;        
+width: 62%; 
+left: 18%;       
+
 }
 
 .goods__header {
@@ -1348,25 +1496,46 @@ font-size: 17px;
 margin-right: 52px;  
 }
 
+.goods__paragraph {
+margin-right: 52px;    
+font-size: 15px;
+max-width: 350px;  
+}
+
 .buttons-shopping__button {
+font-size: 14px;    
 width: 404px;    
 }
 
 .btn-ref__link {
+font-size: 12px;    
 margin-left: 147px;    
+}
+
+.footer {
+display: none;    
 }
 }
 
 @media (max-width:680px) {
 
+<<
 .bags__header {
 margin: 33px 229px 0 0; 
 font:25px/38px montserratbold, arial, helvetica, sans-serif;
-font-weight: 700;
+}
+
+.home-page__header {
+padding-left: 65px;    
+}    
+
+.bags__header {
+margin: 33px 206px 0 0; 
+font:25px/38px montserratbold, arial, helvetica, sans-serif;
 }
 
 .bags__line {
-margin-right: 242px;
+margin-right: 228px;
 font:15px/15px montserratbold, arial, helvetica, sans-serif;    
 }
 
@@ -1393,8 +1562,13 @@ margin-right: 128px;
 margin-right: 188px;    
 }
 
+.goods__line {
+margin-right: 152px;    
+}
+
 .goods__paragraph {
-margin-right: 7px;    
+font-size: 14px;
+margin-right: 0px;    
 }
 
 .buttons-shopping__button {
@@ -1408,7 +1582,403 @@ width: 347px;
 width: 80%;    
 }    
 
+.container {  
+background-size: 420px 860px;    
+}
+
 .content {
-    
+background-size: 520px 570px;    
+}
+
+.goods__header {
+margin-right: 80px;
+}
+
+.goods__line {
+margin-right: 111px;    
+}
+
+.goods__paragraph {
+font-size: 12px;  
+max-width: 303px;  
+}
+
+.buttons-shopping__button {
+width: 300px;    
+}
+
+.btn-ref__link {
+font-size: 10px;
+margin-left: 110px;
+}    
+
+.btn-ref__arrow div {
+width: 60px;
+}
+}
+
+@media (max-width:525px) {
+
+.home-page__header {
+padding-left: 27px;
+}
+
+.container {
+background-size: 390px 860px;    
+}
+
+.content {
+background-size: 450px 680px;    
+}
+
+
+.bags {
+height: 369px;    
+}
+
+.bags__header {
+font:24px/24px montserratbold, arial, helvetica, sans-serif; 
+margin: 26px 144px 8px 0;   
+}
+
+.bags__line {
+margin-right: 160px;    
+}
+
+.bags__paragraph {
+max-width: 350px;  
+font: 15px/17px montserratregular, arial, helvetica, sans-serif;  
+}
+
+.btn-shopping__button {
+width: 358px;    
+}
+
+.goods__header {
+margin-right: 39px;    
+}
+
+.goods__line {
+margin-right: 70px;    
+}
+
+.goods__paragraph {
+max-width: 266px;
+font-size: 11px;    
+}
+
+.buttons-shopping__button {
+width: 264px;    
+}
+}
+
+@media (max-width:465px) {
+
+.container {
+background-size: 360px 860px;    
+}  
+
+.main {
+height: 93%;
+width: 100%;    
+}
+
+.home-page__header {
+padding-left: 0px;    
+}
+
+.bags__header {
+font-size: 23px;
+margin-right: 122px;    
+}
+
+.bags__line {
+font-size: 13px; 
+margin-right: 153px;   
+}
+
+.bags__paragraph {
+max-width: 313px;
+font: 13px/15px montserratregular, arial, helvetica, sans-serif;    
+}
+
+.btn-shopping__button {
+width: 319px;    
+font-size: 12px;
+}
+
+.content {
+background-size: 392px 779px;
+}
+
+.goods__header {
+font: 22px/25px montserratbold, arial, helvetica, sans-serif;  
+margin-right: 26px;  
+}
+.goods__line {
+font-size: 12px;    
+margin-right: 62px;
+}
+
+.goods__paragraph {
+max-width: 249px;    
+padding-left: 20px; 
+}
+
+.buttons-shopping__button {
+width: 223px;
+font-size: 12px;    
+}
+}
+
+@media (max-width:425px) {
+
+.wrap {
+height: 790px;    
+}
+
+.wrapper {
+height: 790px;    
+}
+
+.wrappering {
+height: 790px;    
+}
+
+.container {
+background-size: 360px 697px;
+}
+
+.bags {
+height: 337px;    
+margin-top: 392px;    
+}
+
+.bags__header {
+font-size: 21px;
+margin-right: 108px;
+}
+
+.bags__line {
+font-size: 12px;
+margin-right: 132px;
+}
+
+.bags__paragraph {
+max-width: 283px;
+font: 12px/14px montserratregular, arial, helvetica, sans-serif;
+}
+
+.circle {
+background-size: 100px 25px;    
+}
+
+.btn-shopping__button {
+width: 281px;
+font-size: 11px;
+}
+
+.content {
+background-size: 355px 595px;    
+}
+
+.goods {
+top: 300px;    
+}
+
+.goods__header {
+font-size: 20px; 
+margin-bottom: 2px;   
+}
+
+.goods__line {
+font-size: 11px;
+margin-right: 57px    
+}
+
+.goods__paragraph {
+font-size: 10px;
+padding-left: 14px;
+margin-bottom: 20px;
+max-width: 225px;
+}
+
+.buttons-shopping__button {
+width: 190px;
+font-size: 10px;
+}
+}
+
+@media (max-width:375px) {
+
+.wrap {
+height: 598px;    
+}  
+
+.wrapper {
+height: 596px;    
+}
+
+.wrappering {
+height: 595px; 
+}
+
+.header-box__logo {
+padding-top: 17px; 
+letter-spacing: 3px;   
+}
+
+.home-page {
+background: url(images/Vector.svg) no-repeat center bottom 47px;    
+height: 38%;
+width: 86%;
+}
+
+.home-page__header {
+margin-top: 6%;    
+}
+
+.menu__button {
+padding: 31px 0 0 22px;
+}
+
+.menu__button > span, .menu__button > span::before {
+width: 26px;
+height: 2px;
+}
+
+.menu__button > span::before {
+content: '';
+top: 7px;
+width: 26px;
+}
+
+.main {
+background: url(images/pete-bellis-432867-unsplash.jpg) no-repeat center bottom 27px;    
+}
+
+.bags {
+width: 85%;
+margin-top:263px; 
+height: 281px;
+}
+
+.bags__header {
+font-size: 20px;
+margin: 16px 92px 0 0 ;    
+}
+
+.bags__line {
+font-size: 11px;
+margin-right: 119px;
+margin-bottom: 9px;
+}
+
+.bags__paragraph {
+max-width: 261px;    
+padding-left: 3px;
+font:9px/13px montserratregular, arial, helvetica, sans-serif;
+margin-bottom: 12px;
+}
+
+.circle {
+background: no-repeat url(images/1990₽.svg) bottom 7px left 215px;    
+background-size: 66px 15px;
+width: 85%;   
+margin-bottom: 31px;
+padding-left: 18px;
+}
+
+.circle__white {
+width: 23px;
+height: 23px;
+margin-right: 9px;
+}
+
+.circle__pink {
+width: 30px;
+height: 30px;
+margin-right: 9px;
+}
+
+.circle__blue {
+width: 23px;
+height: 23px;
+margin-right: 9px;
+}
+
+.circle__green {
+width: 23px;
+height: 23px;
+margin-right: 11px;
+}
+
+.btn-shopping__button {
+width: 260px;
+height: 37px;
+font: 13px/33px montserratmedium, arial, helvetica, sans-serif
+}
+
+.container {
+background: url(images/2\ блок\ 2.svg) no-repeat center bottom 326px;    
+background-size: 303px 319px;
+}
+
+.content {
+background:url(images/Mask\ Group.svg) no-repeat center bottom 268px;    
+background-size: 352px 276px;
+}
+
+.goods {
+top:275px;
+height: 34%;    
+width: 81%;
+left: 12%;    
+}
+
+.goods__header {
+font: 20px/21px montserratbold, arial, helvetica, sans-serif;
+margin-right: 69px;   
+margin-bottom: 4px; 
+}
+
+.goods__line {
+margin-right: 101px; 
+margin-bottom: 8px;   
+}
+
+.goods__paragraph {
+font: 9px/12px montserratregular, arial, helvetika, sans-serif;    
+padding-left: 23px;
+margin-right: 56px;
+margin-bottom: 23px;
+}
+
+.buttons-shopping__button {
+font:12px/33px montserratmedium, arial, helvetica, sans-serif;    
+height: 37px;
+width: 260px;
+font-size: 13px;
+}
+
+.buttons-shopping {
+margin-bottom: 66px;
+}
+
+.btn-ref {
+flex-direction: column;    
+width: 100%; 
+margin-right: 0px;   
+}
+
+.btn-ref__link {
+font: 15px/17px montserratmedium, arial, helvetica, sans-serif;
+margin-left: 143px;
+}
+
+.btn-ref__arrow div {
+width: 133px;
+margin-top: 11px;
+margin-left: 144px;
 }
 }

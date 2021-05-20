@@ -1687,14 +1687,14 @@ width: 150px;
     background-size: 352px 276px;
   }
   .goods {
-    top:275px;
+    top: 276px;
     height: 34%;    
     width: 81%;
     left: 12%;    
   }
   .goods__header {
     font: 20px/21px montserratbold, arial, helvetica, sans-serif;
-    margin: 0 69px 5px 0;
+    margin: 23px 69px 5px 0;
   }
   .goods__line {
     font-size: 10px;
@@ -1706,7 +1706,7 @@ width: 150px;
     margin: 0 56px 23px 0;
   }
   .buttons-shopping__button {
-    font:12px/33px montserratmedium, arial, helvetica, sans-serif;    
+    font:13px/33px montserratmedium, arial, helvetica, sans-serif;    
     height: 37px;
     width: 260px;
   }

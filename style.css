@@ -26,8 +26,7 @@ position: relative;
 display: block;
 padding: 36px 0;
 padding-left: 53px;
-font-family: montserratmedium, arial, helvetica, sans-serif;
-font-size: 30px;
+font:30px/36px montserratmedium, arial, helvetica, sans-serif;
 color: #FFF;
 }
 
@@ -98,8 +97,8 @@ padding-left: 187px;
 .main__photo {
 display: block;
 background: no-repeat url(images/1\ блок.svg);
-width: 55%;
-height: 100%;
+width: 64%;
+height: 99%;
 background-size: contain;
 padding-right: 80px;
 }
@@ -108,7 +107,14 @@ padding-right: 80px;
 display: flex;
 flex-direction: column;
 align-items: unset;
-margin-right: 89px;
+margin-right: 76px;
+margin-top: 16px;
+}
+
+.home-page__header {
+font: 80px/81px montserratbold, arial, helvetica, sans-serif;
+font-weight: bold;
+margin-top: 16%;
 }
 
 .home-page__header {
@@ -432,17 +438,19 @@ display: flex;
 width: 100%;
 height: 96%;
 align-items: center;
-position: relative;
+justify-content: space-around;
 }
 
 .content__photo {
 background: no-repeat url(images/3\ блок\ 2.svg);
-background-size: contain;
 width: 60%;
 height: 72%;
 margin-top: 35px;
 margin-left: 83px;
 }
+
+
+.goods {display: flex;flex-direction: column;align-items: center;width: 33%;height: 40%;background: #FAE8E4;}
 
 .goods {
 display: flex;
@@ -463,6 +471,7 @@ margin-top: 39px;
 margin-bottom: 8px;
 margin-right: 10px;
 }
+
 
 .goods__line {
 font-family:montserratbold, arial, helvetica, sans-serif;
@@ -627,7 +636,12 @@ margin-right: 10px;
 }
 }
 
-@media (max-width:1335px) {
+
+@media (max-width:1310px) {
+
+.content__photo {
+margin-right: 485px;    
+}    
 
 .buttons-shopping__quantity {
 margin-right: 28px;    
@@ -755,6 +769,7 @@ background-repeat: no-repeat;
 background-position:left 98px top 29px, left 0px bottom 193px;
 background-size: 582px 844px,398px 415px;   
 }
+  
 .buttons-ref__link {
 margin-right: 18px;    
 }
@@ -1180,10 +1195,6 @@ margin-right: 6px;
 margin-top: 262px;
 }
 
-.goods {
-top:300px;    
-}
-
 .goods__header {
 font: 26px/25px montserratbold, arial, helvetica, sans-serif;
 }
@@ -1401,7 +1412,6 @@ width: 56%;
 .home-page__header {
 margin-bottom: 63px;
 font: 50px/51px montserratbold, arial, helvetica, sans-serif;
-padding-left: 105px;
 }
 
 .main__photo {
@@ -1427,7 +1437,8 @@ font-weight: 700;
 }
 
 .bags__line {
-margin-right: 266px;
+margin-right: 250px;
+
 }
 
 .bags__paragraph {
@@ -1468,6 +1479,7 @@ width: 478px;
 .goods {
 width: 62%; 
 left: 18%;       
+
 }
 
 .goods__header {
@@ -1475,8 +1487,13 @@ margin-right: 175px;
 }
 
 .goods__line {
-font-size: 14px;
-margin-right: 205px;    
+margin-right: 233px;    
+}
+
+.goods__paragraph {
+font: 14px/20px montserratregular, arial, helvetika, sans-serif;
+font-size: 17px;
+margin-right: 52px;  
 }
 
 .goods__paragraph {
@@ -1501,6 +1518,12 @@ display: none;
 }
 
 @media (max-width:680px) {
+
+<<
+.bags__header {
+margin: 33px 229px 0 0; 
+font:25px/38px montserratbold, arial, helvetica, sans-serif;
+}
 
 .home-page__header {
 padding-left: 65px;    
@@ -1532,8 +1555,12 @@ width: 416px;
 @media (max-width:646px) {
 
 .goods__header {
-margin-right: 121px;    
+margin-right: 128px;    
 }    
+
+.goods__line {
+margin-right: 188px;    
+}
 
 .goods__line {
 margin-right: 152px;    
@@ -1553,7 +1580,7 @@ width: 347px;
 
 .bags {
 width: 80%;    
-}  
+}    
 
 .container {  
 background-size: 420px 860px;    

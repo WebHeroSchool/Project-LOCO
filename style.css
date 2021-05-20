@@ -25,6 +25,7 @@ body {
   font-size: 30px;
   color:  #FFF;
 }
+
 .header-container {
   display: flex;
   width:  103px;
@@ -133,11 +134,27 @@ body {
   background-size: contain;
   padding-right: 80px;
 }
+.main__photo {
+display: block;
+background: no-repeat url(images/1\ блок.svg);
+width: 64%;
+height: 99%;
+background-size: contain;
+padding-right: 80px;
+}
+
 .home-page {
-  display: flex;
-  flex-direction: column;
-  align-items: unset;
-  margin-right: 89px;
+display: flex;
+flex-direction: column;
+align-items: unset;
+margin-right: 76px;
+margin-top: 16px;
+}
+
+.home-page__header {
+font: 80px/81px montserratbold, arial, helvetica, sans-serif;
+font-weight: bold;
+margin-top: 16%;
 }
 .home-page__header {
   font: 80px/82px montserratbold, arial, helvetica, sans-serif;
@@ -608,10 +625,16 @@ body {
     margin-right: 10px;
   }
 }
-@media (max-width:1335px) {
-  .buttons-shopping__quantity {
-    margin-right: 28px;    
-  }      
+
+@media (max-width:1310px) {
+
+.content__photo {
+margin-right: 485px;    
+}    
+
+.buttons-shopping__quantity {
+margin-right: 28px;    
+}    
 }
 @media (max-width:1260px) {
   .main__photo {
@@ -794,6 +817,72 @@ body {
     font:12px/15px montserratmedium, arial, helvetica, sans-serif;
     margin-left: 31px;    
   }
+
+@media (max-width:1070px) {
+  
+.main {
+padding-left: 25px;    
+}
+
+.home-page {
+margin-right: 18px;    
+}
+
+.home-page__header {
+font: 75px/80px montserratbold, arial, helvetica, sans-serif;
+margin-top: 13%;
+padding-left: 0;
+}
+
+.home-page__paragraph {
+font: 14px/21px montserratmedium, arial, helvetica, sans-serif;    
+}
+
+.main__photo {
+height: 85%;    
+}
+
+.group__scrool {
+margin-right: 149px;
+}
+
+.container__photo {
+background-size: 493px 844px,376px 384px;    
+}
+
+.buttons__button {
+margin-right: 20px; 
+width: 182px; 
+font-size: 12px;  
+}
+.buttons__link {
+font:12px/14px montserratmedium, arial, helvetica, sans-serif    
+}
+
+.circle {
+width: 89%;    
+}
+
+.goods {
+top: 215px;    
+}
+
+.goods__header {
+font:33px/24px montserratbold, arial, helvetica, sans-serif    
+}
+
+.goods__line {
+margin-right: 113px; 
+font-size: 15px;   
+}
+
+.goods__paragraph {
+font-size: 14px; 
+max-width: 318px;   
+}
+
+.buttons-ref__arrow div {
+width: 150px;    
 }
 @media (max-width:1024px) {
   .main {
@@ -1500,7 +1589,8 @@ body {
     width: 190px;
     font-size: 10px;
   }
-}
+  }
+
 @media (max-width:375px) {
   .wrap {
     height: 598px;    

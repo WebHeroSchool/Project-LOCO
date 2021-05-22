@@ -819,8 +819,7 @@ margin-right: 28px;
     margin-left: 31px;    
   }
 
-@media (max-width:1070px) {
-  
+@media (max-width:1070px) { 
 .main {
 padding-left: 25px;    
 }
@@ -876,14 +875,13 @@ font:33px/24px montserratbold, arial, helvetica, sans-serif
 margin-right: 113px; 
 font-size: 15px;   
 }
-
 .goods__paragraph {
 font-size: 14px; 
 max-width: 318px;   
 }
-
 .buttons-ref__arrow div {
 width: 150px;    
+}
 }
 @media (max-width:1024px) {
   .main {
@@ -1727,4 +1725,4 @@ width: 150px;
     width: 133px;
     margin: 11px 0 0 144px;
   }
-}
+  }

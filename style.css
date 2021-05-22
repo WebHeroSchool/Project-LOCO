@@ -138,7 +138,7 @@ body {
 .main__photo {
 display: block;
 background: no-repeat url(images/1\ блок.svg);
-width: 64%;
+width: 54%;
 height: 99%;
 background-size: contain;
 padding-right: 80px;
@@ -149,7 +149,6 @@ display: flex;
 flex-direction: column;
 align-items: unset;
 margin-right: 76px;
-margin-top: 16px;
 }
 
 .home-page__header {
@@ -165,7 +164,7 @@ margin-top: 16%;
 .home-page__paragraph {
   font: 15px/21px montserratregular, arial, helvetica, sans-serif;
   max-width: 467px;
-  margin: 7px 0 39px 0;
+  margin: 7px 0 36px 0;
   padding-left: 9px;
 }
 .buttons {
@@ -464,7 +463,7 @@ margin-top: 16%;
   flex-direction: column;
   align-items: center;
   width: 33%;
-  height: 40%;
+  height: 41%;
   background: #FAE8E4;
   position: absolute;
   left: 57%;
@@ -652,6 +651,9 @@ margin-right: 28px;
   .container__photo {
     background: no-repeat url(images/2\ блок\ 2.svg) left 98px top 29px, no-repeat url(images/2\ блок.svg) left 0px bottom 193px;    
   }
+  .goods {
+  	top: 210px;
+  }
   .goods__header {
     font-size: 38px;    
   }
@@ -733,8 +735,13 @@ margin-right: 28px;
   .buttons-ref__link {
     margin-right: 18px;    
   }
+
+ .content__photo {
+ 	margin-right: 411px;
+ }
   .goods {
-    height: 37%;    
+    height: 37%; 
+    top: 200px;   
   }
   .goods__header {
     font: 35px/25px montserratbold, arial, helvetica, sans-serif;    
@@ -797,8 +804,14 @@ margin-right: 28px;
   .circle {
     width: 89%;    
   }
+
+ .content__photo {
+ 	width: 64%;
+ 	margin: 158px 0 0 53px;
+ }
   .goods {
-    top: 215px;    
+    top: 281px;
+    left: 61%;    
   }
   .goods__header {
     font:33px/24px montserratbold, arial, helvetica, sans-serif    
@@ -818,71 +831,6 @@ margin-right: 28px;
     font:12px/15px montserratmedium, arial, helvetica, sans-serif;
     margin-left: 31px;    
   }
-
-@media (max-width:1070px) { 
-.main {
-padding-left: 25px;    
-}
-
-.home-page {
-margin-right: 18px;    
-}
-
-.home-page__header {
-font: 75px/80px montserratbold, arial, helvetica, sans-serif;
-margin-top: 13%;
-padding-left: 0;
-}
-
-.home-page__paragraph {
-font: 14px/21px montserratmedium, arial, helvetica, sans-serif;    
-}
-
-.main__photo {
-height: 85%;    
-}
-
-.group__scrool {
-margin-right: 149px;
-}
-
-.container__photo {
-background-size: 493px 844px,376px 384px;    
-}
-
-.buttons__button {
-margin-right: 20px; 
-width: 182px; 
-font-size: 12px;  
-}
-.buttons__link {
-font:12px/14px montserratmedium, arial, helvetica, sans-serif    
-}
-
-.circle {
-width: 89%;    
-}
-
-.goods {
-top: 215px;    
-}
-
-.goods__header {
-font:33px/24px montserratbold, arial, helvetica, sans-serif    
-}
-
-.goods__line {
-margin-right: 113px; 
-font-size: 15px;   
-}
-.goods__paragraph {
-font-size: 14px; 
-max-width: 318px;   
-}
-.buttons-ref__arrow div {
-width: 150px;    
-}
-}
 @media (max-width:1024px) {
   .main {
     padding-left: 42px;    
@@ -929,7 +877,7 @@ width: 150px;
     width: 129px;
   }
   .content__photo {
-    margin-top: 70px;
+    margin-top: 143px;
   }
   .goods__header {
     font-size: 28px;    
@@ -1040,6 +988,10 @@ width: 150px;
     font: 12px/15px montserratmedium, arial, helvetica, sans-serif;
     margin-left: 21px;
   }
+
+ .goods {
+ 	top: 235px;
+ }
   .goods__header {
     font-size: 27px;    
   }
@@ -1123,6 +1075,7 @@ width: 150px;
     margin-right: 6px;  
   }
   .content__photo {
+  	width: 61%;
     margin-top: 262px;
   }
   .goods {
@@ -1346,7 +1299,8 @@ width: 150px;
   }
   .goods {
     width: 62%; 
-    left: 18%;       
+    left: 18%; 
+    top:512px;      
   }
   .goods__header {
     margin-right: 175px;    
@@ -1395,6 +1349,9 @@ width: 150px;
   }
 }
 @media (max-width:646px) {
+  .goods {
+  top: 462px;	
+  }
   .goods__header {
     margin-right: 121px;    
   }     

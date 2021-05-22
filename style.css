@@ -1,42 +1,42 @@
 body {
-  display:  block;
-  margin:	0;
+  display: block;
+  margin:  0;
 }
 .wrap {
   margin:  auto;
-  height: 	900px;
+  height:  900px;
   background-image:  linear-gradient(to right,  black 32%,  white 32%,  white 68%);
 }
 .header {
-  display:  flex;
+  display: flex;
   justify-content:  space-between;
   margin-bottom:  60px;
 }
 .header-box {
   width:  32%;
   display: flex;
-  justify-content: space-between;
+  justify-content:  space-between;
 }
 .header-box__logo {
   position:  relative;
   display: block;
   padding:  36px 0 36px 53px;
-  font-family: montserratmedium, arial, helvetica, sans-serif;
-  font-size: 30px;
+  font-family:  montserratmedium, arial, helvetica, sans-serif;
+  font-size:  30px;
   color:  #FFF;
 }
 
 .header-container {
-  display: flex;
+  display:  flex;
   width:  103px;
   justify-content:  center;
 }
 .header-container__language {
-  font-family:montserratmedium, arial, helvetica, sans-serif;
-  font-size: 20px;
-  color:#FFF;
+  font-family:  montserratmedium, arial, helvetica, sans-serif;
+  font-size:  20px;
+  color:  #FFF;
   margin-left:  8px;
-  padding: 41px 0;
+  padding:  41px 0;
 }
 .header-container__arrow {
   margin:  50px 0 0 6px;
@@ -46,17 +46,16 @@ body {
   border-right:  2px solid #FFF;
   transform:  rotate(135deg);
 }
-
 .header-nav {
-  display: flex;  
-  justify-content: center;  
+  display:  flex;  
+  justify-content:  center;  
   width:  92px;
   height:  92px;
   background:  #ebe9e9;    
 }
 .menu__button {
   padding-top:  40px;    
-  display: block;
+  display:  block;
   cursor:  pointer;
 }
 .menu__checkbox {
@@ -65,7 +64,7 @@ body {
 .menu__button > span,
 .menu__button > span:before {
   display: block;
-  position: relative;
+  position:  relative;
   width:  34px;
   height:  3px;
   background-color:  #000000;
@@ -73,116 +72,116 @@ body {
 .menu__button > span::before {
   content:  '';
   top:  10px;
-  width: 34px;
+  width:  34px;
 }
 .menu__checkbox:checked ~ .menu__button > span {
-  transform: rotate(45deg);
+  transform:  rotate(45deg);
 }
 .menu__checkbox:checked ~ .menu__button > span::before {
-  transform: rotate(90deg);
-  top: 0;
+  transform:  rotate(90deg);
+  top:  0;
 }
 .menu-nav {
-  display: block;
-  position: absolute;
-  visibility: hidden;
-  top: 192px;
-  left: 0;
-  width: 375px;
-  height: 32%;
-  margin: 0;
-  padding: 70px 0;
-  list-style: none;
-  text-align: center;
-  background-color: #FAE8E4;
+  display:  block;
+  position:  absolute;
+  visibility:  hidden;
+  top:  192px;
+  left:  0;
+  width:  375px;
+  height:  32%;
+  margin:  0;
+  padding:  70px 0;
+  list-style:  none;
+  text-align:  center;
+  background-color:  #FAE8E4;
 }   
 .menu-nav__item {
-  display: block;
-  padding: 12px 24px;
-  color: #333;
-  font-family: montserratmedium, sans-serif;
-  font-size: 30px;
-  text-decoration: none;
+  display:  block;
+  padding:  12px 24px;
+  color:  #333;
+  font-family:  montserratmedium, sans-serif;
+  font-size:  30px;
+  text-decoration:  none;
 }
 .menu-nav__item:hover {
-  background-color: #CFD8DC;;    
+  background-color:  #CFD8DC;;    
 }
 .menu__checkbox:checked ~ .menu-nav {
-  visibility: visible;
+  visibility:  visible;
   }
 .menu__button > span,
 .menu__button > span::before {
-  transition-duration: .30s;
+  transition-duration:  .30s;
 }
 .menu-nav {
-  transition-duration: .30s;
+  transition-duration:  .30s;
 }
 .menu-nav__item {
-  transition-duration: .01s;
+  transition-duration:  .01s;
 }
 .main {
   height:  63%;
-  display: flex;
+  display:  flex;
   justify-content:  space-around;
   margin-bottom:  80px;
   padding-left:  187px;
 }
 .main__photo {
-  display: block;
+  display:  block;
   background:  no-repeat url(images/1\ блок.svg);
-  width: 55%;
-  height: 100%;
-  background-size: contain;
-  padding-right: 80px;
+  width:  55%;
+  height:  100%;
+  background-size:  contain;
+  padding-right:  80px;
 }
 .main__photo {
-display: block;
-background: no-repeat url(images/1\ блок.svg);
-width: 54%;
-height: 99%;
-background-size: contain;
-padding-right: 80px;
+display:  block;
+background:  no-repeat url(images/1\ блок.svg);
+width:  54%;
+height:  99%;
+background-size:  contain;
+padding-right:  80px;
 }
 
 .home-page {
-display: flex;
-flex-direction: column;
-align-items: unset;
-margin-right: 76px;
+display:  flex;
+flex-direction:  column;
+align-items:  unset;
+margin-right:  76px;
 }
 
 .home-page__header {
-font: 80px/81px montserratbold, arial, helvetica, sans-serif;
-font-weight: bold;
-margin-top: 16%;
+font:  80px/81px montserratbold, arial, helvetica, sans-serif;
+font-weight:  bold;
+margin-top:  16%;
 }
 .home-page__header {
-  font: 80px/82px montserratbold, arial, helvetica, sans-serif;
-  margin: 18% 0 8px 0;
-  padding-left: 9px;
+  font:  80px/82px montserratbold, arial, helvetica, sans-serif;
+  margin:  18% 0 8px 0;
+  padding-left:  9px;
 }
 .home-page__paragraph {
-  font: 15px/21px montserratregular, arial, helvetica, sans-serif;
-  max-width: 467px;
-  margin: 7px 0 36px 0;
-  padding-left: 9px;
+  font:  15px/21px montserratregular, arial, helvetica, sans-serif;
+  max-width:  467px;
+  margin:  7px 0 36px 0;
+  padding-left:  9px;
 }
 .buttons {
-  display: block;
+  display:  block;
 }
 .buttons__button {
-  margin: 0 52px 0 5px;
-  display: inline-block;
-  font-family:montserratmedium, arial, helvetica, sans-serif;
-  font-size: 13px;
-  width: 200px;
-  height: 44px;
-  border: 1.5px solid #000000;
-  line-height: 44px;
-  text-decoration: none;
-  color:#000;
-  text-align: center;
-  transition: all 500ms ease
+  margin:  0 52px 0 5px;
+  display:  inline-block;
+  font-family:  montserratmedium, arial, helvetica, sans-serif;
+  font-size:  13px;
+  width:  200px;
+  height:  44px;
+  border:  1.5px solid #000000;
+  line-height:  44px;
+  text-decoration:  none;
+  color:  #000;
+  text-align:  center;
+  transition:  all 500ms ease
 }
 .buttons__button:hover {
   background: rgba(0,0,0,0);
@@ -192,8 +191,8 @@ margin-top: 16%;
 .buttons__link {
   margin-right: 10px;
   display: inline-block;
-  font-family:montserratmedium, arial, helvetica, sans-serif;
-  font-size: 13px;
+  font-family:  montserratmedium, arial, helvetica, sans-serif;
+  font-size:  13px;
   width: 172px;
   color: #000;
   text-decoration: none;
@@ -273,7 +272,7 @@ margin-top: 16%;
   background: #FAE8E4;   
 }
 .container {
-  display:flex;
+  display: flex;
   justify-content: space-around;
   width:  100%;
 }
@@ -287,7 +286,7 @@ margin-top: 16%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color:#FFF;
+  background-color: #FFF;
   height: 556px;
   width: 50%;
   margin: 167px 70px 0 0;
@@ -296,7 +295,7 @@ margin-top: 16%;
 }
 .bags__header {
   display: block;
-  font-family:montserratbold, arial, helvetica, sans-serif;
+  font-family: montserratbold, arial, helvetica, sans-serif;
   font-size: 40px;
   margin: 42px 42px 9px 0px;
 }
@@ -535,7 +534,7 @@ margin-top: 16%;
   width: 98%;
 }
 .btn-ref__link {
-  font-family:montserratmedium, arial, helvetica, sans-serif;
+  font-family: montserratmedium, arial, helvetica, sans-serif;
   font-size: 13px;
   color: #000;
   text-decoration: none;
@@ -581,7 +580,7 @@ margin-top: 16%;
 }
 .footer__content {
   display: block;
-  font-family:montserratbold, arial, helvetica, sans-serif;
+  font-family: montserratbold, arial, helvetica, sans-serif;
   font-size: 12px;
   text-decoration: none;
   margin-right: 17px;
@@ -629,13 +628,13 @@ margin-top: 16%;
 
 @media (max-width:1310px) {
 
-.content__photo {
-margin-right: 485px;    
-}    
+  .content__photo {
+	margin-right: 485px;    
+  }    
 
-.buttons-shopping__quantity {
-margin-right: 28px;    
-}    
+  .buttons-shopping__quantity {
+	margin-right: 28px;    
+  }    
 }
 
 @media (max-width:1260px) {
@@ -831,7 +830,7 @@ margin-right: 28px;
     width: 150px;    
   }
   .btn-ref__link {
-    font:12px/15px montserratmedium, arial, helvetica, sans-serif;
+    font: 12px/15px montserratmedium, arial, helvetica, sans-serif;
     margin-left: 31px;    
   }
 }  
@@ -946,7 +945,7 @@ margin-right: 28px;
     margin-right: 0px;
   }
   .container__photo {
-    background-size:393px 803px,279px 419px;
+    background-size: 393px 803px,279px 419px;
   }
   .bags__header {
     margin-right: 18px;    
@@ -994,10 +993,9 @@ margin-right: 28px;
     font: 12px/15px montserratmedium, arial, helvetica, sans-serif;
     margin-left: 21px;
   }
-
- .goods {
+  .goods {
  	top: 235px;
- }
+  }
   .goods__header {
     font-size: 27px;    
   }
@@ -1086,7 +1084,7 @@ margin-right: 28px;
     margin-top: 262px;
   }
   .goods {
-    top:300px;    
+    top: 300px;    
   }
   .goods__header {
     font: 26px/25px montserratbold, arial, helvetica, sans-serif;
@@ -1163,7 +1161,7 @@ margin-right: 28px;
     margin-right: 70px;
   }
   .bags__paragraph {
-    font:12px/19px montserratmedium, arial, helvetica, sans-serif
+    font: 12px/19px montserratmedium, arial, helvetica, sans-serif
   }
   .container__photo {
     background-size: 344px 803px,244px 419px;
@@ -1194,7 +1192,7 @@ margin-right: 28px;
     margin-top: 287px;
   }
   .goods {
-    top:314px;
+    top: 314px;
     height: 32%;    
   }
   .buttons-shopping {
@@ -1269,7 +1267,7 @@ margin-right: 28px;
     background-size: 466px 885px;
   }
   .bags {
-    width:70%;
+    width: 70%;
     height: 391px;  
     margin: 460px 0 0 0;  
   }
@@ -1310,7 +1308,7 @@ margin-right: 28px;
   .goods {
     width: 62%; 
     left: 18%; 
-    top:512px;      
+    top: 512px;      
   }
   .goods__header {
     margin-right: 175px;    
@@ -1343,11 +1341,11 @@ margin-right: 28px;
   }    
   .bags__header {
     margin: 33px 206px 0 0; 
-    font:25px/38px montserratbold, arial, helvetica, sans-serif;
+    font: 25px/38px montserratbold, arial, helvetica, sans-serif;
   }
   .bags__line {
     margin-right: 228px;
-    font:15px/15px montserratbold, arial, helvetica, sans-serif;    
+    font: 15px/15px montserratbold, arial, helvetica, sans-serif;    
   }
   .bags__paragraph {
     max-width: 415px;    
@@ -1618,7 +1616,7 @@ margin-right: 28px;
   .bags__paragraph {
     max-width: 261px;    
     padding-left: 3px;  
-    font:9px/13px montserratregular, arial, helvetica, sans-serif;
+    font: 9px/13px montserratregular, arial, helvetica, sans-serif;
     margin-bottom: 12px;
   }
   .circle {
@@ -1658,7 +1656,7 @@ margin-right: 28px;
     background-size: 303px 319px;
   }
   .content {
-    background:url(images/Mask\ Group.svg) no-repeat center bottom 269px;    
+    background:  url(images/Mask\ Group.svg) no-repeat center bottom 269px;    
     background-size: 352px 276px;
   }
   .goods {
@@ -1681,7 +1679,7 @@ margin-right: 28px;
     margin: 0 56px 23px 0;
   }
   .buttons-shopping__button {
-    font:13px/33px montserratmedium, arial, helvetica, sans-serif;    
+    font: 13px/33px montserratmedium, arial, helvetica, sans-serif;    
     height: 37px;
     width: 260px;
   }

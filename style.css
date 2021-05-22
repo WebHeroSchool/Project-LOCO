@@ -1,10 +1,10 @@
 body {
   display:  block;
-  margin:  0;
+  margin:	0;
 }
 .wrap {
   margin:  auto;
-  height:  900px;
+  height: 	900px;
   background-image:  linear-gradient(to right,  black 32%,  white 32%,  white 68%);
 }
 .header {
@@ -86,10 +86,10 @@ body {
   display: block;
   position: absolute;
   visibility: hidden;
-  top: 69px;
+  top: 192px;
   left: 0;
   width: 375px;
-  height: 22%;
+  height: 32%;
   margin: 0;
   padding: 70px 0;
   list-style: none;
@@ -1565,7 +1565,7 @@ margin-right: 28px;
   
 @media (max-width:375px) {
   .wrap {
-    height: 598px;    
+    height: 668px;    
   }  
   .wrapper {
     height: 595px;
@@ -1575,8 +1575,11 @@ margin-right: 28px;
     height: 598px;
   }
   .header-box__logo {
-    padding-top: 17px; 
+    padding-top: 82px; 
     letter-spacing: 3px;   
+  }
+  .header-nav {
+  	margin-top: 69px;	
   }
   .menu__button > span,
   .menu__button > span::before {
@@ -1588,15 +1591,15 @@ margin-right: 28px;
     width: 26px;
   }
   .home-page {
-    background: url(images/Vector.svg) no-repeat center bottom 95px;    
-    height: 43%;
+    background: url(images/Vector.svg) no-repeat center bottom 165px;    
+    height: 49%;
     width: 86%;
   }
   .home-page__header {
     margin-top: 6%;    
   }
   .main {
-    background: url(images/pete-bellis-432867-unsplash.jpg) no-repeat center bottom 75px;  
+    background: url(images/pete-bellis-432867-unsplash.jpg) no-repeat center bottom 146px;  
     height: 101%;  
   }
   .bags {

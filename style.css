@@ -804,7 +804,6 @@ margin-right: 28px;
   .circle {
     width: 89%;    
   }
-
  .content__photo {
  	width: 64%;
  	margin: 158px 0 0 53px;
@@ -831,6 +830,7 @@ margin-right: 28px;
     font:12px/15px montserratmedium, arial, helvetica, sans-serif;
     margin-left: 31px;    
   }
+}  
 @media (max-width:1024px) {
   .main {
     padding-left: 42px;    
@@ -1546,7 +1546,6 @@ margin-right: 28px;
     font-size: 10px;
   }
   }
-
 @media (max-width:375px) {
   .wrap {
     height: 598px;    

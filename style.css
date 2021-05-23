@@ -58,11 +58,11 @@ body {
   justify-content: center;
   width: 92px;
   height: 92px;
-  background: #ebe9e9;  
+  background: #ebe9e9;
 }
 
 .menu__button {
-  padding-top: 40px; 
+  padding-top: 40px;
   display: block;
   cursor: pointer;
 }
@@ -95,6 +95,19 @@ body {
   top: 0;
 }
 
+.menu__button > span,
+.menu__button > span:before {
+  transition-duration: 0.30s;
+}
+
+.menu-nav {
+  transition-duration: 0.30s;
+}
+
+.menu-nav__item {
+  transition-duration: 0.10s;
+}
+
 .menu-nav {
   display: block;
   position: absolute;
@@ -120,24 +133,11 @@ body {
 }
 
 .menu-nav__item:hover {
-  background-color: #cfd8dc;    
+  background-color: #cfd8dc;
 }
 
 .menu__checkbox:checked ~ .menu-nav {
   visibility: visible;
-}
-
-.menu__button > span,
-.menu__button > span:before {
-  transition-duration: .30s;
-}
-
-.menu-nav {
-  transition-duration: .30s;
-}
-
-.menu-nav__item {
-  transition-duration: .10s;
 }
 
 .main {
@@ -151,32 +151,23 @@ body {
 .main__photo {
   display: block;
   background: no-repeat url(images/1\ блок.svg);
-  width: 55%;
-  height: 100%;
+  width: 54%;
+  height: 99%;
   background-size: contain;
   padding-right: 80px;
 }
 
-.main__photo {
-display: block;
-background: no-repeat url(images/1\ блок.svg);
-width: 54%;
-height: 99%;
-background-size: contain;
-padding-right: 80px;
-}
-
 .home-page {
-display: flex;
-flex-direction: column;
-align-items: unset;
-margin-right: 76px;
+  display: flex;
+  flex-direction: column;
+  align-items: unset;
+  margin-right: 76px;
 }
 
 .home-page__header {
-font: 80px/81px montserratbold, arial, helvetica, sans-serif;
-font-weight: bold;
-margin-top: 16%;
+  font: 80px/81px montserratbold, arial, helvetica, sans-serif;
+  font-weight: bold;
+  margin-top: 16%;
 }
 
 .home-page__header {

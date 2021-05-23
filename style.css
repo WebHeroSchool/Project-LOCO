@@ -12,40 +12,40 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  margin-bottom:  60px;
+  margin-bottom: 60px;
 }
 
 .header-box {
-  width:  32%;
+  width: 32%;
   display: flex;
   justify-content: space-between;
 }
 
 .header-box__logo {
-  position:  relative;
+  position: relative;
   display: block;
-  padding:  36px 0 36px 53px;
+  padding: 36px 0 36px 53px;
   font-family: montserratmedium, arial, helvetica, sans-serif;
-  font-size:  30px;
+  font-size: 30px;
   color: #fff;
 }
 
 .header-container {
-  display:  flex;
-  width:  103px;
-  justify-content:  center;
+  display: flex;
+  width: 103px;
+  justify-content: center;
 }
 
 .header-container__language {
   font-family:  montserratmedium, arial, helvetica, sans-serif;
-  font-size:  20px;
+  font-size: 20px;
   color:  #FFF;
-  margin-left:  8px;
-  padding:  41px 0;
+  margin-left: 8px;
+  padding: 41px 0;
 }
 
 .header-container__arrow {
-  margin:  50px 0 0 6px;
+  margin: 50px 0 0 6px;
   width:  8px;
   height:  7px;
   border-top:  2px solid #FFF;
@@ -58,7 +58,7 @@ body {
   justify-content: center;
   width:  92px;
   height:  92px;
-  background:  #ebe9e9;  
+  background: #ebe9e9;  
 }
 
 .menu__button {
@@ -2052,7 +2052,7 @@ margin-top:  16%;
     font: 15px/17px montserratmedium, arial, helvetica, sans-serif;
     margin-left: 143px;
   }
-  
+
   .btn-ref__arrow div {
     width: 133px;
     margin: 11px 0 0 144px;

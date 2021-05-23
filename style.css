@@ -128,16 +128,16 @@ body {
 }
 
 .menu__button > span,
-.menu__button > span::before {
-  transition-duration:  .30s;
+.menu__button > span:before {
+  transition-duration: .30s;
 }
 
 .menu-nav {
-  transition-duration:  .30s;
+  transition-duration: .30s;
 }
 
 .menu-nav__item {
-  transition-duration:  .01s;
+  transition-duration: .10s;
 }
 
 .main {
@@ -203,7 +203,7 @@ margin-top: 16%;
   font-size: 13px;
   width: 200px;
   height: 44px;
-  border: 1.5px solid #000000;
+  border: 1.5px solid #000;
   line-height: 44px;
   text-decoration: none;
   color: #000;
@@ -580,7 +580,7 @@ margin-top: 16%;
 }
 
 .buttons-shopping__quantity:hover {
-  background: rgba(0,0,0,0);
+  background: rgba(0, 0, 0, 0);
   color: #f29f9f;
   box-shadow: inset 0 0 0 3px #f29f9f;     
 }

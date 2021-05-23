@@ -5,7 +5,7 @@ body {
 
 .wrap {
   margin: auto;
-  height:  900px;
+  height: 900px;
   background-image:  linear-gradient(to right,  black 32%,  white 32%,  white 68%);
 }
 .header {
@@ -189,12 +189,12 @@ margin-top:  16%;
   border:  1.5px solid #000000;
   line-height:  44px;
   text-decoration:  none;
-  color:  #000;
+  color: #000;
   text-align:  center;
   transition:  all 500ms ease;
 }
 .buttons__button:hover {
-  background: rgba(0,0,0,0);
+  background: rgba(0, 0, 0, 0);
   color: #f29f9f;
   box-shadow: inset 0 0 0 3px #f29f9f;    
 }
@@ -1227,7 +1227,7 @@ margin-top:  16%;
   .header-container__language {
     display: none;    
   }
-  
+
   .wrap {
     background-image: linear-gradient(to right,  white 100%, white 100%);
   }

@@ -72,7 +72,7 @@ body {
 }
 
 .menu__button > span,
-.menu__button > span:before {
+.menu__button > span::before {
   display: block;
   position: relative;
   width: 34px;
@@ -84,6 +84,7 @@ body {
   content: '';
   top: 10px;
   width: 34px;
+  transition-duration: 0.3s;
 }
 
 .menu__checkbox:checked ~ .menu__button > span {
@@ -93,19 +94,6 @@ body {
 .menu__checkbox:checked ~ .menu__button > span::before {
   transform: rotate(90deg);
   top: 0;
-}
-
-.menu__button > span,
-.menu__button > span:before {
-  transition-duration: 0.30s;
-}
-
-.menu-nav {
-  transition-duration: 0.30s;
-}
-
-.menu-nav__item {
-  transition-duration: 0.10s;
 }
 
 .menu-nav {
@@ -121,6 +109,7 @@ body {
   list-style: none;
   text-align: center;
   background-color: #fae8e4;
+  transition-duration: 0.3s;
 }
 
 .menu-nav__item {
@@ -130,6 +119,7 @@ body {
   font-family: montserratmedium, sans-serif;
   font-size: 30px;
   text-decoration: none;
+  transition-duration: 0.01s;
 }
 
 .menu-nav__item:hover {
@@ -259,7 +249,7 @@ body {
 
 .group {
   display: flex;
-  justify-content: space-between;    
+  justify-content: space-between;
 }
 
 .social-network {
@@ -497,7 +487,7 @@ body {
 .wrappering {
   margin: auto;
   height: 900px;    
-  background: linear-gradient(to right,#EBE3D8 27%, #000 27%, #000 32%, #EBE3D8 32%);
+  background: linear-gradient(to right,#ebe3d8 27%, #000 27%, #000 32%, #ebe3d8 32%);
 }
 
 .content {
@@ -700,7 +690,7 @@ body {
   }
 
   .buttons-ref__link {
-    font: 12px/14px montserratmedium, arial, helvetica, sans-serif;    
+    font: 12px/14px montserratmedium, arial, helvetica, sans-serif;
   }
 
   .btn-ref__link {

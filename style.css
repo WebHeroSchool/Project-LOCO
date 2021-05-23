@@ -6,7 +6,7 @@ body {
 .wrap {
   margin: auto;
   height: 900px;
-  background-image: linear-gradient(to right,   black 32%,  white 32%,  white 68%);
+  background-image: linear-gradient(to right, black 32%, white 32%, white 68%);
 }
 .header {
   display: flex;

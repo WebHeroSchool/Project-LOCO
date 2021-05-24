@@ -880,59 +880,75 @@ body {
   .main {
     padding-left: 25px;
   }
+
   .home-page {
     margin-right: 18px;
   }
+
   .home-page__header {
     font: 75px/80px montserratbold, arial, helvetica, sans-serif;
     margin-top: 13%;
     padding-left: 0;
   }
+
   .home-page__paragraph {
     font: 14px/21px montserratmedium, arial, helvetica, sans-serif;
   }
+
   .main__photo {
     height: 85%;
   }
+
   .group__scrool {
     margin-right: 149px;
   }
+
   .container__photo {
     background-size: 493px 844px, 376px 384px;
   }
+
   .buttons__button {
     margin-right: 20px;
     width: 182px;
     font-size: 12px;
   }
+
   .buttons__link {
     font: 12px/14px montserratmedium, arial, helvetica, sans-serif;
   }
+
   .circle {
     width: 89%;
   }
+
   .content__photo {
     width: 64%;
     margin: 158px 0 0 53px;
   }
+
   .goods {
     top: 281px;
     left: 61%;
   }
+
   .goods__header {
     font: 33px/24px montserratbold, arial, helvetica, sans-serif;
   }
+
   .goods__line {
     margin-right: 113px;
     font-size: 15px;
   }
+
   .goods__paragraph {
     font-size: 14px;
     max-width: 318px;
   }
+
   .buttons-ref__arrow div {
     width: 150px;
   }
+
   .btn-ref__link {
     font: 12px/15px montserratmedium, arial, helvetica, sans-serif;
     margin-left: 31px;
@@ -943,77 +959,99 @@ body {
   .main {
     padding-left: 42px;
   }
+
   .main__photo {
     height: 74%;
   }
+
   .home-page {
     margin-right: 18px;
   }
+
   .home-page__header {
     margin-top: 6%;
   }
+
   .group__scrool {
     margin-right: 116px;
   }
+
   .container__photo {
     background-size: 469px 800px, 352px 434px;
   }
+
   .bags {
     height: 454px;
     width: 56%;
     margin-right: 57px;
   }
+
   .bags__header {
     margin-right: 17px;
     font-size: 38px;
   }
+
   .bags__line {
     margin-right: 134px;
     margin-bottom: 38px;
   }
+
   .bags__paragraph {
     font: 14px/19px montserratmedium, arial, helvetica, sans-serif;
     margin-bottom: 21px;
   }
+
   .btn-shopping__quantity {
     width: 75px;
   }
+
   .buttons-ref__link {
     margin-left: 7px;
   }
+
   .buttons-ref__arrow div {
     width: 129px;
   }
+
   .content__photo {
     margin-top: 143px;
   }
+
   .goods__header {
     font-size: 28px;
   }
+
   .goods__line {
     margin-right: 65px;
   }
+
   .goods__paragraph {
     font-size: 12px;
     margin-right: 0px;
     max-width: 274px;
   }
+
   .btn-ref {
     margin-right: 15px;
   }
+
   .buttons-shopping__quantity {
     width: 68px;
   }
+
   .buttons-shopping__button {
     width: 183px;
     font: 12px/44px montserratmedium, arial, helvetica, sans-serif;
   }
+
   .buttons-ref__link {
     font: 13px/13px montserratmedium, arial, helvetica, sans-serif;
   }
+
   .buttons-shopping {
     margin-bottom: 77px;
   }
+
   .buttons-ref {
     width: 105%;
   }
@@ -1023,93 +1061,119 @@ body {
   .header {
     margin-bottom: 114px;
   }
+
   .main {
     margin-bottom: 39px;
   }
+
   .main__photo {
     height: 73%;
   }
+
   .home-page {
     margin: 0 22px 0 0;
   }
+
   .home-page__header {
     font: 70px/70px montserratbold, arial, helvetica, sans-serif;
     margin-top: 8%;
   }
+
   .home-page__paragraph {
     font: 12px/21px montserratmedium, arial, helvetica, sans-serif;
   }
+
   .buttons__button {
     width: 166px;
     font-size: 10px;
   }
+
   .buttons__link {
     font: 11px/14px montserratmedium, arial, helvetica, sans-serif;
     width: 155px;
     margin-right: 0px;
   }
+
   .container__photo {
     background-size: 393px 803px, 279px 419px;
   }
+
   .bags__header {
     margin-right: 18px;
     font: 35px/38px montserratbold, arial, helvetica, sans-serif;
   }
+
   .bags__line {
     margin: 0 101px 25px 0;
   }
+
   .circle {
     margin-bottom: 31px;
   }
+
   .circle__white {
     width: 27px;
     height: 27px;
   }
+
   .circle__pink {
     width: 34px;
     height: 34px;
   }
+
   .circle__blue {
     width: 27px;
     height: 27px;
   }
+
   .circle__green {
     width: 27px;
     height: 27px;
   }
+
   .bags {
     height: 455px;
     margin-right: 56px;
   }
+
   .btn-shopping {
     margin-bottom: 65px;
   }
+
   .buttons-ref {
     width: 103%;
   }
+
   .buttons-ref__arrow div {
     width: 100px;
   }
+
   .btn-ref__arrow div {
     width: 80px;
   }
+
   .btn-ref__link {
     font: 12px/15px montserratmedium, arial, helvetica, sans-serif;
     margin-left: 21px;
   }
+
   .goods {
     top: 235px;
   }
+
   .goods__header {
     font-size: 27px;
   }
+
   .goods__line {
     font-size: 14px;
   }
+
   .goods__paragraph {
     font-size: 11px;
     max-width: 253px;
   }
+
   .buttons-shopping__button {
     font-size: 11px;
   }
@@ -1119,92 +1183,116 @@ body {
   .main {
     padding-left: 26px;
   }
+
   .main__photo {
     height: 71%;
   }
+
   .home-page__header {
     font: 65px/70px montserratbold, arial, helvetica, sans-serif;
     margin-top: 5%;
   }
+
   .home-page__paragraph {
     font: 12px/19px montserratmedium, arial, helvetica, sans-serif;
   }
+
   .buttons__button {
     width: 149px;
     margin-right: 10px;
   }
+
   .bags {
     height: 431px;
     margin-top: 221px;
   }
+
   .bags__header {
     margin-right: 14px;
     font: 32px/32px montserratbold, arial, helvetica, sans-serif;
   }
+
   .bags__line {
     margin-right: 82px;
   }
+
   .bags__paragraph {
     font: 13px/19px montserratmedium, arial, helvetica, sans-serif;
     margin-bottom: 23px;
     max-width: 290px;
   }
+
   .btn-shopping {
     margin-bottom: 57px;
   }
+
   .btn-shopping__quantity {
     width: 66px;
     font: 13px/40px montserratmedium, arial, helvetica, sans-serif;
   }
+
   .btn-shopping__button {
     width: 177px;
     font: 13px/40px montserratmedium, arial, helvetica, sans-serif;
   }
+
   .buttons-ref__link {
     font: 11px/13px montserratmedium, arial, helvetica, sans-serif;
   }
+
   .circle__white {
     width: 25px;
     height: 25px;
     margin-right: 6px;
   }
+
   .circle__pink {
     width: 32px;
     height: 32px;
     margin-right: 6px;
   }
+
   .circle__blue {
     width: 25px;
     height: 25px;
     margin-right: 6px;
   }
+
   .circle__green {
     width: 25px;
     height: 25px;
     margin-right: 6px;
   }
+
   .content__photo {
     width: 61%;
     margin-top: 262px;
   }
+
   .goods {
     top: 300px;
   }
+
   .goods__header {
     font: 26px/25px montserratbold, arial, helvetica, sans-serif;
   }
+
   .goods__line {
     margin-right: 59px;
   }
+
   .btn-ref__link {
     font: 11px/15px montserratmedium, arial, helvetica, sans-serif;
   }
+
   .buttons-shopping {
     margin-bottom: 51px;
   }
+
   .buttons-shopping__button {
     font-size: 9px;
   }
+
   .btn-ref__link {
     font-size: 9px;
   }
@@ -1214,26 +1302,33 @@ body {
   .main__photo {
     height: 67%;
   }
+
   .goods {
     height: 36%;
     top: 285px;
   }
+
   .goods__paragraph {
     margin-bottom: 41px;
   }
+
   .container__photo {
     background-size: 393px 803px, 279px 419px;
   }
+
   .bags {
     margin-right: 48px;
   }
+
   .container__photo {
     background-size: 373px 803px, 264px 419px;
     background-position: left 91px top 29px, left 10px bottom 193px;
   }
+
   .goods {
     width: 35%;
   }
+
   .btn-ref__link {
     font: 10px/15px montserratmedium, arial, helvetica, sans-serif;
   }
@@ -1243,65 +1338,83 @@ body {
   .home-page__header {
     font: 60px/70px montserratbold, arial, helvetica, sans-serif;
   }
+
   .home-page__paragraph {
     font: 10px/20px montserratmedium, arial, helvetica, sans-serif;
   }
+
   .buttons__button {
     width: 119px;
   }
+
   .buttons__link {
     font: 10px/14px montserratmedium, arial, helvetica, sans-serif;
     width: 134px;
   }
+
   .bags {
     width: 61%;
     height: 413px;
   }
+
   .bags__header {
     margin-right: 5px;
     font: 32px/32px montserratbold, arial, helvetica, sans-serif;
   }
+
   .bags__line {
     margin-right: 70px;
   }
+
   .bags__paragraph {
     font: 12px/19px montserratmedium, arial, helvetica, sans-serif;
   }
+
   .container__photo {
     background-size: 344px 803px, 244px 419px;
     background-position: left 73px top 29px, left 10px bottom 193px;
   }
+
   .goods {
     width: 37%;
   }
+
   .goods__header {
     font: 24px/25px montserratbold, arial, helvetica, sans-serif;
     margin-top: 23px;
   }
+
   .goods__line {
     font-size: 12px;
     margin-right: 64px;
   }
+
   .goods__paragraph {
     font-size: 10px;
     max-width: 227px;
   }
+
   .btn-shopping__quantity {
     display: none;
   }
+
   .buttons-shopping__quantity {
     display: none;
   }
+
   .content__photo {
     margin-top: 287px;
   }
+
   .goods {
     top: 314px;
     height: 32%;
   }
+
   .buttons-shopping {
     margin-bottom: 42px;
   }
+
   .buttons-shopping__button {
     margin-right: 0px;
   }
@@ -1311,38 +1424,49 @@ body {
   .group {
     display: none;
   }
+
   .home-page__paragraph {
     display: none;
   }
+
   .buttons {
     display: none;
   }
+
   .header-container__language {
     display: none;
   }
+
   .wrap {
     background-image: linear-gradient(to right, white 100%, white 100%);
   }
+
   .header-box__logo {
     font: 30px/36px montserratmedium, arial, helvetica, sans-serif;
   }
+
   .header-container__arrow {
     color: #000;
   }
+
   .header-nav {
     width: 70px;
     height: 69px;
   }
+
   .menu__button {
     padding-top: 30px;
   }
+
   .header {
     margin-bottom: 0px;
   }
+
   .header-box__logo {
     color: #000;
     padding: 18px 0 0 24px;
   }
+
   .main {
     background: url(images/pete-bellis-432867-unsplash.jpg) no-repeat;
     background-size: cover;
@@ -1353,87 +1477,108 @@ body {
     flex-direction: column-reverse;
     padding-left: 0px;
   }
+
   .home-page {
     background: url(images/Vector.svg) no-repeat center bottom 27px;
     margin-right: 0px;
     width: 56%;
   }
+
   .home-page__header {
     margin-bottom: 63px;
     font: 50px/51px montserratbold, arial, helvetica, sans-serif;
     padding-left: 105px;
   }
+
   .main__photo {
     display: none;
   }
+
   .container {
     background: url(images/2\ блок\ 2.svg) no-repeat center bottom 281px;
     background-size: 466px 885px;
   }
+
   .bags {
     width: 70%;
     height: 391px;
     margin: 460px 0 0 0;
   }
+
   .bags__header {
     margin: 24px 198px 0 0;
   }
+
   .bags__line {
     margin-right: 266px;
   }
+
   .bags__paragraph {
     font: 17px/19px montserratregular, arial, helvetica, sans-serif;
     margin-right: 0;
     padding-left: 0;
     max-width: 470px;
   }
+
   .circle {
     width: 89%;
     margin-bottom: 20px;
   }
+
   .container__photo {
     display: none;
   }
+
   .content {
     background: url(images/Mask\ Group.svg) no-repeat center bottom 293px;
     background-size: 590px 600px;
     align-items: center;
     justify-content: space-around;
   }
+
   .content__photo {
     display: none;
   }
+
   .buttons-ref {
     display: none;
   }
+
   .btn-shopping__button {
     width: 478px;
   }
+
   .goods {
     width: 62%;
     left: 18%;
     top: 512px;
   }
+
   .goods__header {
     margin-right: 175px;
   }
+
   .goods__line {
     font-size: 14px;
     margin-right: 205px;
   }
+
   .goods__paragraph {
     margin-right: 52px;
     font-size: 15px;
     max-width: 350px;
   }
+
   .buttons-shopping__button {
     font-size: 14px;
     width: 404px;
   }
+
   .btn-ref__link {
     font-size: 12px;
     margin-left: 147px;
   }
+
   .footer {
     display: none;
   }
@@ -1443,20 +1588,25 @@ body {
   .home-page__header {
     padding-left: 65px;
   }
+
   .bags__header {
     margin: 33px 206px 0 0;
     font: 25px/38px montserratbold, arial, helvetica, sans-serif;
   }
+
   .bags__line {
     margin-right: 228px;
     font: 15px/15px montserratbold, arial, helvetica, sans-serif;
   }
+
   .bags__paragraph {
     max-width: 415px;
   }
+
   .circle {
     width: 87%;
   }
+
   .btn-shopping__button {
     width: 416px;
   }
@@ -1466,16 +1616,20 @@ body {
   .goods {
     top: 462px;
   }
+
   .goods__header {
     margin-right: 121px;
   }
+
   .goods__line {
     margin-right: 152px;
   }
+
   .goods__paragraph {
     font-size: 14px;
     margin-right: 0px;
   }
+
   .buttons-shopping__button {
     width: 347px;
   }
@@ -1485,29 +1639,37 @@ body {
   .bags {
     width: 80%;
   }
+
   .container {
     background-size: 420px 860px;
   }
+
   .content {
     background-size: 520px 570px;
   }
+
   .goods__header {
     margin-right: 80px;
   }
+
   .goods__line {
     margin-right: 111px;
   }
+
   .goods__paragraph {
     font-size: 12px;
     max-width: 303px;
   }
+
   .buttons-shopping__button {
     width: 300px;
   }
+
   .btn-ref__link {
     font-size: 10px;
     margin-left: 110px;
   }
+
   .btn-ref__arrow div {
     width: 60px;
   }
@@ -1517,39 +1679,50 @@ body {
   .home-page__header {
     padding-left: 27px;
   }
+
   .container {
     background-size: 390px 860px;
   }
+
   .content {
     background-size: 450px 680px;
   }
+
   .bags {
     height: 369px;
   }
+
   .bags__header {
     font: 24px/24px montserratbold, arial, helvetica, sans-serif;
     margin: 26px 144px 8px 0;
   }
+
   .bags__line {
     margin-right: 160px;
   }
+
   .bags__paragraph {
     max-width: 350px;
     font: 15px/17px montserratregular, arial, helvetica, sans-serif;
   }
+
   .btn-shopping__button {
     width: 358px;
   }
+
   .goods__header {
     margin-right: 39px;
   }
+
   .goods__line {
     margin-right: 70px;
   }
+
   .goods__paragraph {
     max-width: 266px;
     font-size: 11px;
   }
+
   .buttons-shopping__button {
     width: 264px;
   }
@@ -1559,44 +1732,55 @@ body {
   .container {
     background-size: 360px 860px;
   }
+
   .main {
     height: 93%;
     width: 100%;
   }
+
   .home-page__header {
     padding-left: 0px;
   }
+
   .bags__header {
     font-size: 23px;
     margin-right: 122px;
   }
+
   .bags__line {
     font-size: 13px;
     margin-right: 153px;
   }
+
   .bags__paragraph {
     max-width: 313px;
     font: 13px/15px montserratregular, arial, helvetica, sans-serif;
   }
+
   .btn-shopping__button {
     width: 319px;
     font-size: 12px;
   }
+
   .content {
     background-size: 392px 779px;
   }
+
   .goods__header {
     font: 22px/25px montserratbold, arial, helvetica, sans-serif;
     margin-right: 26px;
   }
+
   .goods__line {
     font-size: 12px;
     margin-right: 62px;
   }
+
   .goods__paragraph {
     max-width: 249px;
     padding-left: 20px;
   }
+
   .buttons-shopping__button {
     width: 223px;
     font-size: 12px;
@@ -1607,58 +1791,73 @@ body {
   .wrap {
     height: 790px;
   }
+
   .wrapper {
     height: 790px;
   }
+
   .wrappering {
     height: 790px;
   }
+
   .container {
     background-size: 360px 697px;
   }
+
   .bags {
     height: 337px;
     margin-top: 392px;
   }
+
   .bags__header {
     font-size: 21px;
     margin-right: 108px;
   }
+
   .bags__line {
     font-size: 12px;
     margin-right: 132px;
   }
+
   .bags__paragraph {
     max-width: 283px;
     font: 12px/14px montserratregular, arial, helvetica, sans-serif;
   }
+
   .circle {
     background-size: 100px 25px;
   }
+
   .btn-shopping__button {
     width: 281px;
     font-size: 11px;
   }
+
   .content {
     background-size: 355px 595px;
   }
+
   .goods {
     top: 300px;
   }
+
   .goods__header {
     font-size: 20px;
     margin-bottom: 2px;
   }
+
   .goods__line {
     font-size: 11px;
     margin-right: 57px;
   }
+
   .goods__paragraph {
     font-size: 10px;
     padding-left: 14px;
     margin-bottom: 20px;
     max-width: 225px;
   }
+
   .buttons-shopping__button {
     width: 190px;
     font-size: 10px;
@@ -1669,59 +1868,73 @@ body {
   .wrap {
     height: 668px;
   }
+
   .wrapper {
     height: 595px;
   }
+
   .wrappering {
     background: linear-gradient( to right, #ebe3d8 27%, #000 27%, #000 38%, #ebe3d8 38%);
     height: 598px;
   }
+
   .header-box__logo {
     padding-top: 82px;
     letter-spacing: 3px;
   }
+
   .header-nav {
     margin-top: 69px;
   }
+
   .menu__button > span, .menu__button > span::before {
     width: 26px;
   }
+
   .menu__button > span::before {
     content: "";
     top: 8px;
     width: 26px;
   }
+
   .home-page {
     background: url(images/Vector.svg) no-repeat center bottom 165px;
     height: 49%;
     width: 86%;
   }
+
   .home-page__header {
     margin-top: 6%;
   }
+
   .main {
     background: url(images/pete-bellis-432867-unsplash.jpg) no-repeat center bottom 146px;
     height: 101%;
   }
+
   .bags {
     width: 85%;
     margin-top: 263px;
     height: 281px;
   }
+
   .bags__header {
     font-size: 20px;
     margin: 16px 92px 0 0;
   }
+
   .bags__line {
     font-size: 11px;
     margin: 0 119px 9px 0;
   }
+
   .bags__paragraph {
     max-width: 261px;
     padding-left: 3px;
     font: 9px/13px montserratregular, arial, helvetica, sans-serif;
     margin-bottom: 12px;
   }
+
   .circle {
     background: no-repeat url(images/1990₽.svg) bottom 7px left 215px;
     background-size: 66px 15px;
@@ -1729,75 +1942,91 @@ body {
     margin-bottom: 31px;
     padding-left: 18px;
   }
+
   .circle__white {
     width: 23px;
     height: 23px;
     margin-right: 9px;
   }
+
   .circle__pink {
     width: 30px;
     height: 30px;
     margin-right: 9px;
   }
+
   .circle__blue {
     width: 23px;
     height: 23px;
     margin-right: 9px;
   }
+
   .circle__green {
     width: 23px;
     height: 23px;
     margin-right: 11px;
   }
+
   .btn-shopping__button {
     width: 260px;
     height: 37px;
     font: 13px/33px montserratmedium, arial, helvetica, sans-serif;
   }
+
   .container {
     background: url(images/2\ блок\ 2.svg) no-repeat center bottom 326px;
     background-size: 303px 319px;
   }
+
   .content {
     background: url(images/Mask\ Group.svg) no-repeat center bottom 269px;
     background-size: 352px 276px;
   }
+
   .goods {
     top: 276px;
     height: 194px;
     width: 304px;
     left: 46px;
   }
+
   .goods__header {
     font: 20px/21px montserratbold, arial, helvetica, sans-serif;
     margin: 23px 69px 5px 0;
   }
+
   .goods__line {
     font-size: 10px;
     margin: 0 117px 8px 0;
   }
+
   .goods__paragraph {
     font: 9px/12px montserratregular, arial, helvetika, sans-serif;
     padding-left: 23px;
     margin: 0 56px 23px 0;
   }
+
   .buttons-shopping__button {
     font: 13px/33px montserratmedium, arial, helvetica, sans-serif;
     height: 37px;
     width: 260px;
   }
+
   .buttons-shopping {
     margin-bottom: 66px;
   }
+
   .btn-ref {
     flex-direction: column;
     width: 100%;
     margin-right: 0px;
   }
+
   .btn-ref__link {
     font: 15px/17px montserratmedium, arial, helvetica, sans-serif;
     margin-left: 143px;
   }
+  
   .btn-ref__arrow div {
     width: 133px;
     margin: 11px 0 0 144px;

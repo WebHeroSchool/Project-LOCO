@@ -71,7 +71,7 @@ body {
   display: none;
 }
 
-.menu__button>span, .menu__button>span::before {
+.menu__button > span, .menu__button > span::before {
   display: block;
   position: relative;
   width: 34px;
@@ -79,18 +79,18 @@ body {
   background-color: #000;
 }
 
-.menu__button>span::before {
+.menu__button > span::before {
   content: "";
   top: 10px;
   width: 34px;
   transition-duration: 0.3s;
 }
 
-.menu__checkbox:checked~.menu__button>span {
+.menu__checkbox:checked ~ .menu__button > span {
   transform: rotate(45deg);
 }
 
-.menu__checkbox:checked~.menu__button>span::before {
+.menu__checkbox:checked ~ .menu__button > span::before {
   transform: rotate(90deg);
   top: 0;
 }
@@ -660,32 +660,41 @@ body {
   .main {
     padding-left: 95px;
   }
+
   .main__photo {
     height: 95%;
   }
+
   .home-page {
     margin-right: 80px;
   }
+
   .group__scrool {
     margin-right: 264px;
   }
+
   .container__photo {
     background: no-repeat url(images/2\ блок\ 2.svg) left 165px top 29px, no-repeat url(images/2\ блок.svg) left 62px bottom 193px;
     width: 90%;
     height: 90%;
   }
+
   .btn-shopping__button {
     margin-right: 41px;
   }
+
   .btn-shopping__quantity {
     margin-left: 32px;
   }
+
   .buttons-ref__link {
     font: 12px/14px montserratmedium, arial, helvetica, sans-serif;
   }
+
   .btn-ref__link {
     margin-left: 100px;
   }
+
   .btn-shopping__button {
     margin-right: 10px;
   }
@@ -695,6 +704,7 @@ body {
   .content__photo {
     margin-right: 485px;
   }
+
   .buttons-shopping__quantity {
     margin-right: 28px;
   }
@@ -706,44 +716,57 @@ body {
     width: 69%;
     padding-right: 40px;
   }
+
   .home-page {
     margin-right: 0px;
   }
+
   .group__scrool {
     margin-right: 18px;
   }
+
   .container__photo {
     background: no-repeat url(images/2\ блок\ 2.svg) left 98px top 29px, no-repeat url(images/2\ блок.svg) left 0px bottom 193px;
   }
+
   .goods {
     top: 210px;
   }
+
   .goods__header {
     font-size: 38px;
   }
+
   .goods__line {
     margin-right: 145px;
   }
+
   .goods__paragraph {
     margin-right: 0;
   }
+
   .btn-shopping__button {
     margin-right: 0px;
     width: 230px;
   }
+
   .btn-shopping__quantity {
     margin-left: 0px;
   }
+
   .buttons-shopping__button {
     margin-right: 35px;
   }
+
   .buttons-ref__link {
     font: 11px/13px montserratmedium, arial, helvetica, sans-serif;
     margin-right: 43px;
   }
+
   .buttons-ref__arrow div {
     width: 175px;
   }
+
   .btn-ref__link {
     margin-left: 50px;
   }
@@ -753,82 +776,105 @@ body {
   .main {
     padding-left: 45px;
   }
+
   .main__photo {
     width: 75%;
     padding-right: 0px;
   }
+
   .buttons__button {
     margin-right: 25px;
   }
+
   .group__scrool {
     margin-right: 126px;
   }
+
   .bags {
     margin-right: 57px;
     font: 40px/38px montserratbold, arial, helvetica, sans-serif;
     height: 536px;
   }
+
   .bags__header {
     font: 36px/38px montserratbold, arial, helvetica, sans-serif;
     margin-right: 10px;
   }
+
   .bags__line {
     margin-right: 118px;
   }
+
   .bags__paragraph {
     font: 15px/20px montserratmedium, arial, helvetica, sans-serif;
     margin-right: 0px;
     padding-left: 10px;
   }
+
   .buttons-shopping {
     margin-bottom: 62px;
   }
+
   .btn-shopping__quantity {
     width: 90px;
   }
+
   .buttons-shopping__button {
     width: 209px;
   }
+
   .circle {
     width: 83%;
     margin-right: 23px;
   }
+
   .container__photo {
     background: no-repeat url(images/2\ блок\ 2.svg) left 98px top 29px, no-repeat url(images/2\ блок.svg) left 0px bottom 193px;
     background-size: 582px 844px, 398px 415px;
   }
+
   .buttons-ref__link {
     margin-right: 18px;
   }
+
   .content__photo {
     margin-right: 411px;
   }
+
   .goods {
     height: 37%;
     top: 200px;
   }
+
   .goods__header {
     font: 35px/25px montserratbold, arial, helvetica, sans-serif;
   }
+
   .goods__line {
     margin-right: 119px;
   }
+
   .goods__paragraph {
     max-width: 325px;
     font-size: 14px;
   }
+
   .buttons__shoppig {
     margin-bottom: 44px;
   }
+
   .buttons-shopping__quantity {
     width: 81px;
   }
+
   .btn-ref__arrow div {
     width: 90px;
   }
+
   .btn-ref {
     margin-right: 56px;
   }
+  
   .buttons-ref__arrow div {
     margin-bottom: 23px;
   }

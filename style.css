@@ -486,7 +486,7 @@ body {
 .wrappering {
   margin: auto;
   height: 900px;
-  background: linear-gradient( to right, #ebe3d8 27%, #000 27%, #000 32%, #ebe3d8 32%);
+  background: linear-gradient(to right, #ebe3d8 27%, #000 27%, #000 32%, #ebe3d8 32%);
 }
 
 .content {
@@ -827,7 +827,7 @@ body {
 
   .container__photo {
     background: no-repeat url(images/2\ блок\ 2.svg) left 98px top 29px,
-      no-repeat url(images/2\ блок.svg) left 0px bottom 193px;
+      no-repeat url(images/2\ блок.svg) left 0 bottom 193px;
     background-size: 582px 844px, 398px 415px;
   }
 
@@ -1881,8 +1881,7 @@ body {
   }
 
   .main {
-    background: url(images/pete-bellis-432867-unsplash.jpg) no-repeat center
-      bottom 146px;
+    background: url(images/pete-bellis-432867-unsplash.jpg) no-repeat center bottom 146px;
     height: 101%;
   }
 

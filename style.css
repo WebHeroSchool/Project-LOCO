@@ -1856,13 +1856,7 @@ body {
   }
 
   .wrappering {
-    background: linear-gradient(
-      to right,
-      #ebe3d8 27%,
-      #000 27%,
-      #000 38%,
-      #ebe3d8 38%
-    );
+    background: linear-gradient(to right, #ebe3d8 27%, #000 27%, #000 38%, #ebe3d8 38%);
     height: 598px;
   }
 

@@ -679,10 +679,6 @@ body {
     height: 90%;
   }
 
-  .btn-shopping__button {
-    margin-right: 41px;
-  }
-
   .btn-shopping__quantity {
     margin-left: 32px;
   }
@@ -874,7 +870,7 @@ body {
   .btn-ref {
     margin-right: 56px;
   }
-  
+
   .buttons-ref__arrow div {
     margin-bottom: 23px;
   }
@@ -1687,10 +1683,10 @@ body {
   .header-nav {
     margin-top: 69px;
   }
-  .menu__button>span, .menu__button>span::before {
+  .menu__button > span, .menu__button > span::before {
     width: 26px;
   }
-  .menu__button>span::before {
+  .menu__button > span::before {
     content: "";
     top: 8px;
     width: 26px;

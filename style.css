@@ -826,8 +826,7 @@ body {
   }
 
   .container__photo {
-    background: no-repeat url(images/2\ блок\ 2.svg) left 98px top 29px,
-      no-repeat url(images/2\ блок.svg) left 0 bottom 193px;
+    background: no-repeat url(images/2\ блок\ 2.svg) left 98px top 29px,no-repeat url(images/2\ блок.svg) left 0 bottom 193px;
     background-size: 582px 844px, 398px 415px;
   }
 

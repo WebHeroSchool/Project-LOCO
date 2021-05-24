@@ -281,7 +281,8 @@ body {
 
 .group__scrool {
   margin-right: 204px;
-  background: no-repeat url(images/Rectangle\ 8.svg) center, no-repeat url(images/Rectangle\ 9.svg) center top 10px;
+  background: no-repeat url(images/Rectangle\ 8.svg) center,
+    no-repeat url(images/Rectangle\ 9.svg) center top 10px;
   width: 27px;
   height: 46px;
 }
@@ -301,7 +302,8 @@ body {
 
 .container__photo {
   display: block;
-  background: no-repeat url(images/2\ блок\ 2.svg) left 233px top 29px, no-repeat url(images/2\ блок.svg) left 123px bottom 147px;
+  background: no-repeat url(images/2\ блок\ 2.svg) left 233px top 29px,
+    no-repeat url(images/2\ блок.svg) left 123px bottom 147px;
   width: 90%;
   height: 85%;
 }
@@ -486,7 +488,13 @@ body {
 .wrappering {
   margin: auto;
   height: 900px;
-  background: linear-gradient( to right, #ebe3d8 27%, #000 27%, #000 32%, #ebe3d8 32%);
+  background: linear-gradient(
+    to right,
+    #ebe3d8 27%,
+    #000 27%,
+    #000 32%,
+    #ebe3d8 32%
+  );
 }
 
 .content {
@@ -675,7 +683,8 @@ body {
   }
 
   .container__photo {
-    background: no-repeat url(images/2\ блок\ 2.svg) left 165px top 29px, no-repeat url(images/2\ блок.svg) left 62px bottom 193px;
+    background: no-repeat url(images/2\ блок\ 2.svg) left 165px top 29px,
+      no-repeat url(images/2\ блок.svg) left 62px bottom 193px;
     width: 90%;
     height: 90%;
   }
@@ -694,7 +703,7 @@ body {
 
   .btn-shopping__button {
     margin-right: 10px;
-  }  
+  }
 }
 
 @media (max-width: 1310px) {
@@ -715,7 +724,7 @@ body {
   }
 
   .home-page {
-    margin-right: 0px;
+    margin-right: 0;
   }
 
   .group__scrool {
@@ -723,7 +732,8 @@ body {
   }
 
   .container__photo {
-    background: no-repeat url(images/2\ блок\ 2.svg) left 98px top 29px, no-repeat url(images/2\ блок.svg) left 0px bottom 193px;
+    background: no-repeat url(images/2\ блок\ 2.svg) left 98px top 29px,
+      no-repeat url(images/2\ блок.svg) left 0px bottom 193px;
   }
 
   .goods {
@@ -743,12 +753,12 @@ body {
   }
 
   .btn-shopping__button {
-    margin-right: 0px;
+    margin-right: 0;
     width: 230px;
   }
 
   .btn-shopping__quantity {
-    margin-left: 0px;
+    margin-left: 0;
   }
 
   .buttons-shopping__button {
@@ -776,7 +786,7 @@ body {
 
   .main__photo {
     width: 75%;
-    padding-right: 0px;
+    padding-right: 0;
   }
 
   .buttons__button {
@@ -804,7 +814,7 @@ body {
 
   .bags__paragraph {
     font: 15px/20px montserratmedium, arial, helvetica, sans-serif;
-    margin-right: 0px;
+    margin-right: 0;
     padding-left: 10px;
   }
 
@@ -826,7 +836,8 @@ body {
   }
 
   .container__photo {
-    background: no-repeat url(images/2\ блок\ 2.svg) left 98px top 29px, no-repeat url(images/2\ блок.svg) left 0px bottom 193px;
+    background: no-repeat url(images/2\ блок\ 2.svg) left 98px top 29px,
+      no-repeat url(images/2\ блок.svg) left 0px bottom 193px;
     background-size: 582px 844px, 398px 415px;
   }
 
@@ -956,7 +967,6 @@ body {
 }
 
 @media (max-width: 1024px) {
-
   .main {
     padding-left: 42px;
   }
@@ -1055,7 +1065,6 @@ body {
 }
 
 @media (max-width: 941px) {
-
   .header {
     margin-bottom: 114px;
   }
@@ -1178,7 +1187,6 @@ body {
 }
 
 @media (max-width: 891px) {
-
   .main {
     padding-left: 26px;
   }
@@ -1294,11 +1302,10 @@ body {
 }
 
 @media (max-width: 845px) {
-
   .main__photo {
     height: 67%;
   }
- 
+
   .goods__paragraph {
     margin-bottom: 41px;
   }
@@ -1318,7 +1325,6 @@ body {
 }
 
 @media (max-width: 809px) {
-
   .home-page__header {
     font: 60px/70px montserratbold, arial, helvetica, sans-serif;
   }
@@ -1400,7 +1406,6 @@ body {
 }
 
 @media (max-width: 768px) {
-
   .group {
     display: none;
   }
@@ -1847,7 +1852,7 @@ body {
 }
 
 @media (max-width: 375px) {
-
+  
   .wrap {
     height: 668px;
   }
@@ -1870,7 +1875,7 @@ body {
     margin-top: 69px;
   }
 
-  .menu__button > span, 
+  .menu__button > span,
   .menu__button > span::before {
     width: 26px;
   }
@@ -1892,7 +1897,8 @@ body {
   }
 
   .main {
-    background: url(images/pete-bellis-432867-unsplash.jpg) no-repeat center bottom 146px;
+    background: url(images/pete-bellis-432867-unsplash.jpg) no-repeat center
+      bottom 146px;
     height: 101%;
   }
 

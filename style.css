@@ -1294,18 +1294,9 @@ body {
   .main__photo {
     height: 67%;
   }
-
-  .goods {
-    height: 36%;
-    top: 285px;
-  }
-
+ 
   .goods__paragraph {
     margin-bottom: 41px;
-  }
-
-  .container__photo {
-    background-size: 393px 803px, 279px 419px;
   }
 
   .bags {
@@ -1427,10 +1418,6 @@ body {
 
   .wrap {
     background-image: linear-gradient(to right, white 100%, white 100%);
-  }
-
-  .header-box__logo {
-    font: 30px/36px montserratmedium, arial, helvetica, sans-serif;
   }
 
   .header-container__arrow {
@@ -1875,11 +1862,11 @@ body {
     margin-top: 69px;
   }
 
-  .menu__button>span, .menu__button>span::before {
+  .menu__button > span, .menu__button > span::before {
     width: 26px;
   }
 
-  .menu__button>span::before {
+  .menu__button > span::before {
     content: "";
     top: 8px;
     width: 26px;
@@ -1890,6 +1877,7 @@ body {
     height: 49%;
     width: 86%;
   }
+
   .home-page__header {
     margin-top: 6%;
   }

@@ -71,7 +71,7 @@ body {
   display: none;
 }
 
-.menu__button > span, .menu__button > span::before {
+.menu__button > span,.menu__button > span::before {
   display: block;
   position: relative;
   width: 34px;
@@ -125,7 +125,7 @@ body {
   background-color: #cfd8dc;
 }
 
-.menu__checkbox:checked~.menu-nav {
+.menu__checkbox:checked ~ .menu-nav {
   visibility: visible;
 }
 
@@ -693,7 +693,7 @@ body {
 
   .btn-shopping__button {
     margin-right: 10px;
-  }
+  }  
 }
 
 @media (max-width: 1310px) {
@@ -832,7 +832,6 @@ body {
   .buttons-ref__link {
     margin-right: 18px;
   }
-
   .content__photo {
     margin-right: 411px;
   }
@@ -1887,11 +1886,11 @@ body {
     margin-top: 69px;
   }
 
-  .menu__button > span, .menu__button > span::before {
+  .menu__button>span, .menu__button>span::before {
     width: 26px;
   }
 
-  .menu__button > span::before {
+  .menu__button>span::before {
     content: "";
     top: 8px;
     width: 26px;
@@ -1902,7 +1901,6 @@ body {
     height: 49%;
     width: 86%;
   }
-
   .home-page__header {
     margin-top: 6%;
   }
@@ -2026,7 +2024,7 @@ body {
     font: 15px/17px montserratmedium, arial, helvetica, sans-serif;
     margin-left: 143px;
   }
-  
+
   .btn-ref__arrow div {
     width: 133px;
     margin: 11px 0 0 144px;

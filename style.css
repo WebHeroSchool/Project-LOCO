@@ -281,8 +281,7 @@ body {
 
 .group__scrool {
   margin-right: 204px;
-  background: no-repeat url(images/Rectangle\ 8.svg) center,
-    no-repeat url(images/Rectangle\ 9.svg) center top 10px;
+  background: no-repeat url(images/Rectangle\ 8.svg) center, no-repeat url(images/Rectangle\ 9.svg) center top 10px;
   width: 27px;
   height: 46px;
 }
@@ -302,8 +301,7 @@ body {
 
 .container__photo {
   display: block;
-  background: no-repeat url(images/2\ блок\ 2.svg) left 233px top 29px,
-    no-repeat url(images/2\ блок.svg) left 123px bottom 147px;
+  background: no-repeat url(images/2\ блок\ 2.svg) left 233px top 29px, no-repeat url(images/2\ блок.svg) left 123px bottom 147px;
   width: 90%;
   height: 85%;
 }
@@ -488,13 +486,7 @@ body {
 .wrappering {
   margin: auto;
   height: 900px;
-  background: linear-gradient(
-    to right,
-    #ebe3d8 27%,
-    #000 27%,
-    #000 32%,
-    #ebe3d8 32%
-  );
+  background: linear-gradient( to right, #ebe3d8 27%, #000 27%, #000 32%, #ebe3d8 32%);
 }
 
 .content {
@@ -683,8 +675,7 @@ body {
   }
 
   .container__photo {
-    background: no-repeat url(images/2\ блок\ 2.svg) left 165px top 29px,
-      no-repeat url(images/2\ блок.svg) left 62px bottom 193px;
+    background: no-repeat url(images/2\ блок\ 2.svg) left 165px top 29px, no-repeat url(images/2\ блок.svg) left 62px bottom 193px;
     width: 90%;
     height: 90%;
   }
@@ -732,8 +723,7 @@ body {
   }
 
   .container__photo {
-    background: no-repeat url(images/2\ блок\ 2.svg) left 98px top 29px,
-      no-repeat url(images/2\ блок.svg) left 0px bottom 193px;
+    background: no-repeat url(images/2\ блок\ 2.svg) left 98px top 29px, no-repeat url(images/2\ блок.svg) left 0 bottom 193px;
   }
 
   .goods {
@@ -1609,7 +1599,7 @@ body {
 
   .goods__paragraph {
     font-size: 14px;
-    margin-right: 0px;
+    margin-right: 0;
   }
 
   .buttons-shopping__button {

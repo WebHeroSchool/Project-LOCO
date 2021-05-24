@@ -955,6 +955,7 @@ body {
 }
 
 @media (max-width: 1024px) {
+
   .main {
     padding-left: 42px;
   }
@@ -1041,10 +1042,6 @@ body {
   .buttons-shopping__button {
     width: 183px;
     font: 12px/44px montserratmedium, arial, helvetica, sans-serif;
-  }
-
-  .buttons-ref__link {
-    font: 13px/13px montserratmedium, arial, helvetica, sans-serif;
   }
 
   .buttons-shopping {
@@ -1280,10 +1277,6 @@ body {
     margin-right: 59px;
   }
 
-  .btn-ref__link {
-    font: 11px/15px montserratmedium, arial, helvetica, sans-serif;
-  }
-
   .buttons-shopping {
     margin-bottom: 51px;
   }
@@ -1326,10 +1319,6 @@ body {
 
   .goods {
     width: 35%;
-  }
-
-  .btn-ref__link {
-    font: 10px/15px montserratmedium, arial, helvetica, sans-serif;
   }
 }
 

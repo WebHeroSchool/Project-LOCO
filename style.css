@@ -1396,6 +1396,7 @@ body {
 }
 
 @media (max-width: 768px) {
+  
   .group {
     display: none;
   }
@@ -1556,6 +1557,7 @@ body {
 }
 
 @media (max-width: 680px) {
+
   .home-page__header {
     padding-left: 65px;
   }
@@ -1584,6 +1586,7 @@ body {
 }
 
 @media (max-width: 646px) {
+
   .goods {
     top: 462px;
   }
@@ -1607,6 +1610,7 @@ body {
 }
 
 @media (max-width: 600px) {
+
   .bags {
     width: 80%;
   }
@@ -1647,6 +1651,7 @@ body {
 }
 
 @media (max-width: 525px) {
+
   .home-page__header {
     padding-left: 27px;
   }
@@ -1700,6 +1705,7 @@ body {
 }
 
 @media (max-width: 465px) {
+
   .container {
     background-size: 360px 860px;
   }
@@ -1759,6 +1765,7 @@ body {
 }
 
 @media (max-width: 425px) {
+
   .wrap {
     height: 790px;
   }
@@ -1836,6 +1843,7 @@ body {
 }
 
 @media (max-width: 375px) {
+
   .wrap {
     height: 668px;
   }

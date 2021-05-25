@@ -1311,6 +1311,7 @@ body {
 
   .goods {
     width: 35%;
+    height: 35%;
   }
 }
 
@@ -1357,6 +1358,7 @@ body {
 
   .goods {
     width: 37%;
+    height: 31%;
   }
 
   .goods__header {
@@ -1656,6 +1658,7 @@ body {
   }
 
   .content {
+    background: url(images/Mask\ Group.svg) no-repeat center bottom 255px;
     background-size: 450px 680px;
   }
 
@@ -1679,6 +1682,10 @@ body {
 
   .btn-shopping__button {
     width: 358px;
+  }
+
+  .goods {
+    top: 475px;    
   }
 
   .goods__header {
@@ -1881,7 +1888,7 @@ body {
 
   .main {
     background: url(images/pete-bellis-432867-unsplash.jpg) no-repeat center bottom 146px;
-    height: 101%;
+    height: 102%;
   }
 
   .bags {

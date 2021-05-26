@@ -500,9 +500,10 @@ body {
 .content__photo {
   background: no-repeat url(images/3\ блок\ 2.svg);
   background-size: contain;
-  width: 60%;
+  width: 57%;
   height: 72%;
   margin: 35px 0 0 83px;
+  box-shadow: 7px -5px 9px rgb(0 0 0 / 25%);
 }
 
 .goods {
@@ -695,6 +696,10 @@ body {
   .btn-shopping__button {
     margin-right: 10px;
   }
+
+  .content__photo {
+    height: 67%;  
+  }
 }
 
 @media (max-width: 1310px) {
@@ -705,9 +710,30 @@ body {
   .buttons-shopping__quantity {
     margin-right: 28px;
   }
+
+  .content__photo {
+    height: 64%;
+  }
 }
 
 @media (max-width: 1260px) {
+
+  .bags {
+    padding-left: 10px;
+  }
+
+  .bags__header {
+    font-size: 38px;
+  }
+
+  .bags__line {
+  font-size: 15px;  
+  }
+
+  .bags__paragraph {
+    font-size: 14px; 
+  }
+
   .main__photo {
     height: 92%;
     width: 69%;
@@ -727,7 +753,7 @@ body {
   }
 
   .goods {
-    top: 210px;
+    top: 268px;
   }
 
   .goods__header {
@@ -767,6 +793,17 @@ body {
   .btn-ref__link {
     margin-left: 50px;
   }
+
+  .content__photo {
+    height: 60%;  
+  }
+}
+
+@media (max-width:1220px) {
+  
+  .content__photo {
+    height: 57%;  
+  }
 }
 
 @media (max-width: 1171px) {
@@ -790,20 +827,20 @@ body {
   .bags {
     margin-right: 57px;
     font: 40px/38px montserratbold, arial, helvetica, sans-serif;
-    height: 536px;
+    height: 517px;
   }
 
   .bags__header {
-    font: 36px/38px montserratbold, arial, helvetica, sans-serif;
-    margin-right: 10px;
+    font-size: 35px;
+    margin-right: 48px;
   }
 
   .bags__line {
-    margin-right: 118px;
+    margin-right: 150px;
   }
 
   .bags__paragraph {
-    font: 15px/20px montserratmedium, arial, helvetica, sans-serif;
+    font: 13px/20px montserratmedium, arial, helvetica, sans-serif;
     margin-right: 0;
     padding-left: 10px;
   }
@@ -827,7 +864,7 @@ body {
 
   .container__photo {
     background: no-repeat url(images/2\ блок\ 2.svg) left 98px top 29px, no-repeat url(images/2\ блок.svg) left 0 bottom 193px;
-    background-size: 582px 844px, 398px 415px;
+    background-size: 535px 844px, 398px 415px;
   }
 
   .buttons-ref__link {
@@ -836,11 +873,12 @@ body {
 
   .content__photo {
     margin-right: 411px;
+    width: 56%;
   }
 
   .goods {
     height: 37%;
-    top: 200px;
+    top: 277px;
   }
 
   .goods__header {
@@ -880,6 +918,22 @@ body {
 @media (max-width: 1070px) {
   .main {
     padding-left: 25px;
+  }
+
+  .bags {
+    padding: 0 20px; 
+  }
+  .bags__header {
+    font-size: 32px; 
+  }
+
+  .bags__line {
+    font-size: 14px;    
+    margin-right: 141px;
+  }
+
+  .bags__paragraph {
+    padding-left: 15px;
   }
 
   .home-page {
@@ -923,12 +977,14 @@ body {
   }
 
   .content__photo {
-    width: 64%;
+    width: 61%;
+    height: 56%;
     margin: 158px 0 0 53px;
   }
 
   .goods {
-    top: 281px;
+    padding: 0 10px;
+    top: 355px;
     left: 61%;
   }
 
@@ -978,7 +1034,7 @@ body {
   }
 
   .container__photo {
-    background-size: 469px 800px, 352px 434px;
+    background-size: 430px 800px, 344px 434px;
   }
 
   .bags {
@@ -988,8 +1044,7 @@ body {
   }
 
   .bags__header {
-    margin-right: 17px;
-    font-size: 38px;
+    margin-right: 42px;
   }
 
   .bags__line {
@@ -998,7 +1053,6 @@ body {
   }
 
   .bags__paragraph {
-    font: 14px/19px montserratmedium, arial, helvetica, sans-serif;
     margin-bottom: 21px;
   }
 
@@ -1015,6 +1069,8 @@ body {
   }
 
   .content__photo {
+    width: 58%;
+    height: 52%;
     margin-top: 143px;
   }
 
@@ -1030,6 +1086,10 @@ body {
     font-size: 12px;
     margin-right: 0;
     max-width: 274px;
+  }
+
+  .circle {
+    margin-bottom: 32px;
   }
 
   .btn-ref {
@@ -1096,17 +1156,21 @@ body {
   }
 
   .bags__header {
-    margin-right: 18px;
-    font: 35px/38px montserratbold, arial, helvetica, sans-serif;
+    margin-right: 22px;
   }
 
   .bags__line {
-    margin: 0 101px 25px 0;
+    margin-right: 115px;
+  }
+
+  .bags__paragraph {
+    font-size: 12px;
   }
 
   .circle {
-    margin-bottom: 31px;
+    background-size: 97px 95px;
   }
+
 
   .circle__white {
     width: 27px;
@@ -1154,8 +1218,13 @@ body {
     margin-left: 21px;
   }
 
+  .content__photo {
+    width: 58%;
+    height: 48%;
+  }
+
   .goods {
-    top: 235px;
+    top: 341px;
   }
 
   .goods__header {
@@ -1177,7 +1246,21 @@ body {
 }
 
 @media (max-width: 891px) {
+
+  .wrap {
+    height: 800px;
+  }
+
+  .wrapper {
+    height: 800px;
+  }
+
+  .wrappering {
+    height: 800px;
+  }
+  
   .main {
+    height: 60%;
     padding-left: 26px;
   }
 
@@ -1199,23 +1282,25 @@ body {
     margin-right: 10px;
   }
 
+  .container__photo {
+    background: no-repeat url(images/2\ блок\ 2.svg) 22px/410px, left 98px top 29px; 
+  }
   .bags {
     height: 431px;
-    margin-top: 221px;
+    margin-top: 171px;
   }
 
   .bags__header {
     margin-right: 14px;
-    font: 32px/32px montserratbold, arial, helvetica, sans-serif;
+    font-size: 30px;
   }
 
   .bags__line {
-    margin-right: 82px;
+    margin: 0 91px 16px 0;
   }
 
   .bags__paragraph {
-    font: 13px/19px montserratmedium, arial, helvetica, sans-serif;
-    margin-bottom: 23px;
+    font-size: 13px;
     max-width: 290px;
   }
 
@@ -1235,6 +1320,10 @@ body {
 
   .buttons-ref__link {
     font: 11px/13px montserratmedium, arial, helvetica, sans-serif;
+  }
+
+  .circle {
+    margin-bottom: 19px; 
   }
 
   .circle__white {
@@ -1262,12 +1351,13 @@ body {
   }
 
   .content__photo {
-    width: 61%;
-    margin-top: 262px;
+    width: 55%;
+    margin-top: 98px;
   }
 
   .goods {
-    top: 300px;
+    top: 276px;
+    left: 57%;
   }
 
   .goods__header {
@@ -1276,6 +1366,10 @@ body {
 
   .goods__line {
     margin-right: 59px;
+  }
+
+  .goods__paragraph {
+    margin-bottom: 29px;
   }
 
   .buttons-shopping {
@@ -1297,17 +1391,13 @@ body {
   }
 
   .goods__paragraph {
-    margin-bottom: 41px;
+    margin-bottom: 17px;
   }
 
-  .bags {
-    margin-right: 48px;
-  }
-
-  .container__photo {
-    background-size: 373px 803px, 264px 419px;
-    background-position: left 91px top 29px, left 10px bottom 193px;
-  }
+  .content__photo {
+    height: 45%;
+    margin-top: 46px;
+  }  
 
   .goods {
     width: 35%;
@@ -1339,25 +1429,23 @@ body {
   }
 
   .bags__header {
-    margin-right: 5px;
-    font: 32px/32px montserratbold, arial, helvetica, sans-serif;
+    margin: 18px 5px;
   }
 
   .bags__line {
-    margin-right: 70px;
+    margin-right: 78px;
   }
 
   .bags__paragraph {
-    font: 12px/19px montserratmedium, arial, helvetica, sans-serif;
+    font-size: 12px;
   }
 
   .container__photo {
-    background-size: 344px 803px, 244px 419px;
-    background-position: left 73px top 29px, left 10px bottom 193px;
+    background-size: 356px 500px;
   }
 
   .goods {
-    width: 37%;
+    width: 32%;
     height: 31%;
   }
 
@@ -1385,7 +1473,7 @@ body {
   }
 
   .content__photo {
-    margin-top: 287px;
+    margin-top: 41px;
   }
 
   .buttons-shopping {
@@ -1398,6 +1486,18 @@ body {
 }
 
 @media (max-width: 768px) {
+  .wrap {
+    height: 700px;
+  }
+
+  .wrapper {
+    height: 700px;
+  }
+
+  .wrappering {
+    height: 700px;
+  }
+
   .group {
     display: none;
   }
@@ -1468,34 +1568,35 @@ body {
   }
 
   .container {
-    background: url(images/2\ блок\ 2.svg) no-repeat center bottom 281px;
-    background-size: 466px 885px;
+    background: url(images/2\ блок\ 2.svg) no-repeat center bottom 98px;
+    background-size: 365px 873px;
   }
 
   .bags {
-    width: 70%;
-    height: 391px;
-    margin: 460px 0 0 0;
+    width: 60%;
+    height: 281px;
+    margin: 382px 0 0 0;
+    padding: 0 15px;
   }
 
   .bags__header {
-    margin: 24px 198px 0 0;
+    font-size: 25px;
+    margin: 10px 215px 0 0;
   }
 
   .bags__line {
-    margin-right: 266px;
+    margin-right: 252px;
   }
 
   .bags__paragraph {
-    font: 17px/19px montserratregular, arial, helvetica, sans-serif;
-    margin-right: 0;
-    padding-left: 0;
+    font-size: 12px;
     max-width: 470px;
+    margin-bottom: 3px;
   }
 
   .circle {
-    width: 89%;
-    margin-bottom: 20px;
+    width: 95%;
+    margin-bottom: 9px;
   }
 
   .container__photo {
@@ -1503,10 +1604,8 @@ body {
   }
 
   .content {
-    background: url(images/Mask\ Group.svg) no-repeat center bottom 293px;
-    background-size: 590px 600px;
-    align-items: center;
-    justify-content: space-around;
+    background: url(images/Mask\ Group.svg) no-repeat center bottom 110px;
+    background-size: 535px 647px;
   }
 
   .content__photo {
@@ -1518,28 +1617,29 @@ body {
   }
 
   .btn-shopping__button {
-    width: 478px;
+    width: 435px;
   }
 
   .goods {
-    width: 62%;
-    left: 18%;
-    top: 260px;
+    width: 56%;
+    left: 21%;
+    top: 403px;
   }
 
   .goods__header {
-    margin-right: 175px;
+    font-size: 22px;
+    margin: 12px 189px 5px 0;
   }
 
   .goods__line {
-    font-size: 14px;
-    margin-right: 205px;
+    font-size: 13px;
+    margin: 0 205px 9px 0;
   }
 
   .goods__paragraph {
-    margin-right: 52px;
+    margin: 0 52px 9px 0;
     font-size: 15px;
-    max-width: 350px;
+    max-width: 342px;
   }
 
   .buttons-shopping__button {
@@ -1549,7 +1649,7 @@ body {
 
   .btn-ref__link {
     font-size: 12px;
-    margin-left: 147px;
+    margin-left: 100px;
   }
 
   .footer {
@@ -1557,23 +1657,196 @@ body {
   }
 }
 
-@media (max-width: 680px) {
-  .home-page__header {
-    padding-left: 65px;
+@media (max-width:713px) {
+  .container {
+    background-size: 318px 917px;
+  }
+
+  .bags {
+    margin-top: 362px;
   }
 
   .bags__header {
-    margin: 33px 206px 0 0;
-    font: 25px/38px montserratbold, arial, helvetica, sans-serif;
+    font-size: 23px;
+    margin-right: 198px;
   }
 
   .bags__line {
-    margin-right: 228px;
-    font: 15px/15px montserratbold, arial, helvetica, sans-serif;
+    margin: 0 217px 10px 0;
   }
 
   .bags__paragraph {
-    max-width: 415px;
+    font-size: 11px;
+  }
+
+  .btn-shopping__button {
+    width: 393px;
+  }
+
+  .content {
+    background-size: 487px 649px;
+  }
+
+  .goods__header {
+    font-size: 20px;
+    margin-right: 155px;
+  }
+
+  .goods__line {
+    font-size: 12px;
+    margin-right: 176px;
+  }
+
+  .goods__paragraph {
+    margin: 0 5px 9px 0;
+    font-size: 13px;
+    max-width: 340px;
+  }
+
+  .buttons-shopping__button {
+    font-size: 13px;
+    width: 339px;
+  }
+}
+
+@media (max-width: 654px) {
+  .bags__header {
+    font-size: 20px;
+  }
+
+  .bags__line {
+    font-size: 12px;
+  }
+
+  .bags__paragraph {
+    font-size: 10px;
+  }
+
+  .btn-shopping__button {
+    font-size: 12px;
+    width: 365px;
+}
+}
+
+@media (max-width: 614px) {
+  .bags__header {
+    margin-right: 165px;
+  }
+
+  .bags__line {
+    margin-right: 182px;
+  }
+
+  .circle {
+    width: 91%;
+    background-size: 83px 19px;
+  }
+
+  .circle__white {
+    width: 23px;
+    height: 23px;
+  }
+
+  .circle__pink {
+    width: 30px;
+    height: 30px;
+  }
+
+  .circle__blue {
+    width: 23px;
+    height: 23px;
+  }
+
+  .circle__green {
+    width: 23px;
+    height: 23px;
+  }
+
+  .btn-shopping__button {
+    width: 320px;
+  }
+
+  .goods__header {
+    font-size: 19px;
+    margin-right: 115px;
+  }
+
+  .goods__line {
+    font-size: 11px;
+    margin-right: 139px;
+  }
+
+  .goods__paragraph {
+    font-size: 12px;
+    max-width: 286px;
+  }
+
+  .buttons-shopping__button {
+    width: 292px;
+  }
+}
+
+@media (max-width: 558px) {
+  .home-page__header {
+    padding-left: 54px;
+  }
+
+  .bags__header {
+    margin: 5px 130px 0 0;
+  }
+ 
+  .bags__line {
+    margin-right: 148px;
+  }
+
+  .bags__paragraph {
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 525px) {
+  .content {
+    background-size: 424px 609px;
+  }
+
+  .goods__header {
+    margin-right: 47px;
+  }
+
+  .goods__line {
+    margin-right: 66px;
+  }
+
+  .goods__paragraph {
+    max-width: 221px;
+  }
+
+  .buttons-shopping__button {
+    width: 222px;
+  }
+
+  .btn-ref__link {
+    font-size: 11px;
+  }
+}
+
+@media (max-width: 500px) {
+  
+  .home-page__header {
+    padding-left: 17px;
+  }
+
+  .bags__header {
+    font-size: 19px;
+    margin-right: 98px;
+  }
+  
+  .bags__line {
+    margin-right: 105px;
+  }
+
+  .bags__paragraph {
+    line-height: 16px;
   }
 
   .circle {
@@ -1581,270 +1854,112 @@ body {
   }
 
   .btn-shopping__button {
-    width: 416px;
-  }
-}
-
-@media (max-width: 646px) {
-  .goods {
-    top: 462px;
-  }
-
-  .goods__header {
-    margin-right: 121px;
-  }
-
-  .goods__line {
-    margin-right: 152px;
-  }
-
-  .goods__paragraph {
-    font-size: 14px;
-    margin-right: 0;
-  }
-
-  .buttons-shopping__button {
-    width: 347px;
-  }
-}
-
-@media (max-width: 600px) {
-  .bags {
-    width: 80%;
-  }
-
-  .container {
-    background-size: 420px 860px;
-  }
-
-  .content {
-    background-size: 520px 570px;
-  }
-
-  .goods__header {
-    margin-right: 80px;
-  }
-
-  .goods__line {
-    margin-right: 111px;
-  }
-
-  .goods__paragraph {
-    font-size: 12px;
-    max-width: 303px;
-  }
-
-  .buttons-shopping__button {
-    width: 300px;
-  }
-
-  .btn-ref__link {
-    font-size: 10px;
-    margin-left: 110px;
-  }
-
-  .btn-ref__arrow div {
-    width: 60px;
-  }
-}
-
-@media (max-width: 525px) {
-  .home-page__header {
-    padding-left: 27px;
-  }
-
-  .container {
-    background-size: 390px 860px;
-  }
-
-  .content {
-    background: url(images/Mask\ Group.svg) no-repeat center bottom 255px;
-    background-size: 450px 680px;
-  }
-
-  .bags {
-    height: 369px;
-  }
-
-  .bags__header {
-    font: 24px/24px montserratbold, arial, helvetica, sans-serif;
-    margin: 26px 144px 8px 0;
-  }
-
-  .bags__line {
-    margin-right: 160px;
-  }
-
-  .bags__paragraph {
-    max-width: 350px;
-    font: 15px/17px montserratregular, arial, helvetica, sans-serif;
-  }
-
-  .btn-shopping__button {
-    width: 358px;
-  }
-
-  .goods {
-    top: 475px;    
-  }
-
-  .goods__header {
-    margin-right: 39px;
-  }
-
-  .goods__line {
-    margin-right: 70px;
-  }
-
-  .goods__paragraph {
-    max-width: 266px;
+    width: 262px;
     font-size: 11px;
   }
 
   .buttons-shopping__button {
-    width: 264px;
+    font-size: 11px;
+  }
+
+  .btn-ref__link {
+    margin-left: 64px;
   }
 }
 
-@media (max-width: 465px) {
-  .container {
-    background-size: 360px 860px;
+@media (max-width:432px) {
+  .wrap {
+    height: 632px;
   }
 
-  .main {
-    height: 93%;
-    width: 100%;
+  .wrapper {
+    height: 632px;
+  }
+
+  .wrappering {
+    height: 632px;
+  }
+
+  .home-page {
+    background: url(images/Vector.svg) no-repeat center bottom 40px;
+    width: 60px;
   }
 
   .home-page__header {
     padding-left: 0;
   }
 
-  .bags__header {
-    font-size: 23px;
-    margin-right: 122px;
-  }
-
-  .bags__line {
-    font-size: 13px;
-    margin-right: 153px;
-  }
-
-  .bags__paragraph {
-    max-width: 313px;
-    font: 13px/15px montserratregular, arial, helvetica, sans-serif;
-  }
-
-  .btn-shopping__button {
-    width: 319px;
-    font-size: 12px;
-  }
-
-  .content {
-    background-size: 392px 779px;
-  }
-
-  .goods__header {
-    font: 22px/25px montserratbold, arial, helvetica, sans-serif;
-    margin-right: 26px;
-  }
-
-  .goods__line {
-    font-size: 12px;
-    margin-right: 62px;
-  }
-
-  .goods__paragraph {
-    max-width: 249px;
-    padding-left: 20px;
-  }
-
-  .buttons-shopping__button {
-    width: 223px;
-    font-size: 12px;
-  }
+  .container {
+    background-size: 268px 819px;
 }
 
-@media (max-width: 425px) {
-  .wrap {
-    height: 790px;
-  }
-
-  .wrapper {
-    height: 790px;
-  }
-
-  .wrappering {
-    height: 790px;
-  }
-
-  .container {
-    background-size: 360px 697px;
-  }
-
   .bags {
-    height: 337px;
-    margin-top: 392px;
+    margin-top: 321px;
   }
 
   .bags__header {
-    font-size: 21px;
-    margin-right: 108px;
+    font-size: 18px;
+    margin-right: 70px;
   }
 
   .bags__line {
-    font-size: 12px;
-    margin-right: 132px;
+    margin-right: 70px;
   }
 
   .bags__paragraph {
-    max-width: 283px;
-    font: 12px/14px montserratregular, arial, helvetica, sans-serif;
+    line-height: 15px;
+    font-size: 9px;
   }
 
   .circle {
-    background-size: 100px 25px;
+    width: 91%;
   }
 
   .btn-shopping__button {
-    width: 281px;
-    font-size: 11px;
+    width: 230px;
+    font-size: 10px;
   }
 
   .content {
-    background-size: 355px 595px;
+    background-size: 362px 609px;
   }
 
   .goods {
-    top: 300px;
+    top: 318px;
   }
 
   .goods__header {
-    font-size: 20px;
-    margin-bottom: 2px;
+    font-size: 18px;
+    margin-right: 37px;
   }
 
   .goods__line {
-    font-size: 11px;
-    margin-right: 57px;
+    margin-right: 46px;
   }
 
   .goods__paragraph {
     font-size: 10px;
-    padding-left: 14px;
-    margin-bottom: 20px;
-    max-width: 225px;
+    max-width: 196px;
   }
 
   .buttons-shopping__button {
-    width: 190px;
+    font-size: 10px;
+    width: 199px;
+  }
+
+  .btn-ref__link {
+    margin-left: 51px;
     font-size: 10px;
   }
+
+
+
+
 }
 
 @media (max-width: 375px) {
   .wrap {
-    height: 668px;
+    height: 598px;
   }
 
   .wrapper {
@@ -1857,12 +1972,8 @@ body {
   }
 
   .header-box__logo {
-    padding-top: 82px;
+    padding-top: 15px;
     letter-spacing: 3px;
-  }
-
-  .header-nav {
-    margin-top: 69px;
   }
 
   .menu__button > span,
@@ -1888,7 +1999,7 @@ body {
 
   .main {
     background: url(images/pete-bellis-432867-unsplash.jpg) no-repeat center bottom 146px;
-    height: 102%;
+    height: 113%;
   }
 
   .bags {

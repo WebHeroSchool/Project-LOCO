@@ -691,7 +691,7 @@ body {
   }
 
   .content {
-    background-size: 56% 71%, 57% 79%
+    background-size: 56% 71%, 57% 79%;
   }
 
   .goods {
@@ -1063,7 +1063,7 @@ body {
   }
 
   .goods {
-    top:274px;
+    top: 274px;
   }
 
   .goods__header {
@@ -1587,7 +1587,7 @@ body {
   }
 
   .content {
-    background: url(images/Mask\ Group.svg) no-repeat center bottom 110px, no-repeat url(images/shadow.png) left 88px top 0 ;
+    background: url(images/Mask\ Group.svg) no-repeat center bottom 110px, no-repeat url(images/shadow.png) left 88px top 0;
     background-size: 535px 647px, 49% 73%;
   }
 
@@ -1708,8 +1708,8 @@ body {
   }
 
   .content {
-  background: url(images/Mask\ Group.svg) no-repeat center bottom 110px, no-repeat url(images/shadow.png) left 49px bottom 205px;
-  background-size: 487px 649px, 49% 67%;
+    background: url(images/Mask\ Group.svg) no-repeat center bottom 110px, no-repeat url(images/shadow.png) left 49px bottom 205px;
+    background-size: 487px 649px, 49% 67%;
   }
 }
 
@@ -1875,7 +1875,7 @@ body {
   }
 }
 
-@media (max-width:432px) {
+@media (max-width: 432px) {
   .wrap {
     height: 632px;
   }
@@ -2117,7 +2117,6 @@ body {
   .btn-ref {
     flex-direction: column;
     max-width: 100%;
-    /* margin-right: 0; */
   }
 
   .btn-ref__link {

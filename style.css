@@ -1868,7 +1868,7 @@ body {
   }
 }
 
-@media (max-width:480px) {
+@media (max-width: 480px) {
   .content {
     background: url(images/Mask\ Group.svg) no-repeat center bottom 110px, no-repeat url(images/shadow.png) left 0 bottom 200px;
     background-size: 424px 609px, 49% 57%;

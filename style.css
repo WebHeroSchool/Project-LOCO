@@ -498,13 +498,12 @@ body {
 }
 
 .content__photo {
-  background: no-repeat url(images/3\ блок\ 2.svg);
+  background: no-repeat url(images/3\ блок\ 2.svg), url(images/shadow.svg);
   background-size: contain;
   width: 57%;
   height: 72%;
   margin: 35px 0 0 83px;
-  box-shadow: 7px -5px 9px rgb(0 0 0 / 25%);
-}
+ }
 
 .goods {
   display: flex;
@@ -1604,7 +1603,7 @@ body {
   }
 
   .content {
-    background: url(images/Mask\ Group.svg) no-repeat center bottom 110px;
+    background: url(images/Mask\ Group.svg) no-repeat center bottom 110px, url(images/shadow.svg) no-repeat;
     background-size: 535px 647px;
   }
 
@@ -1729,6 +1728,10 @@ body {
 }
 
 @media (max-width: 614px) {
+  .home-page__header {
+    padding-left: 33px;
+  }
+
   .bags__header {
     margin-right: 165px;
   }
@@ -1951,10 +1954,6 @@ body {
     margin-left: 51px;
     font-size: 10px;
   }
-
-
-
-
 }
 
 @media (max-width: 375px) {
@@ -2003,14 +2002,15 @@ body {
   }
 
   .bags {
-    width: 85%;
+    width: 77%;
     margin-top: 263px;
     height: 281px;
   }
 
   .bags__header {
+    height: 30px;
     font-size: 20px;
-    margin: 16px 92px 0 0;
+    margin: 8px 92px 0 0;
   }
 
   .bags__line {
@@ -2028,7 +2028,7 @@ body {
   .circle {
     background: no-repeat url(images/1990₽.svg) bottom 7px left 215px;
     background-size: 66px 15px;
-    width: 85%;
+    width: 94%;
     margin-bottom: 31px;
     padding-left: 18px;
   }
@@ -2082,21 +2082,23 @@ body {
 
   .goods__header {
     font: 20px/21px montserratbold, arial, helvetica, sans-serif;
-    margin: 23px 69px 5px 0;
+    margin: 23px 92px 5px 0;
   }
 
   .goods__line {
     font-size: 10px;
-    margin: 0 117px 8px 0;
+    margin: 0 138px 8px 0;
   }
 
   .goods__paragraph {
     font: 9px/12px montserratregular, arial, helvetika, sans-serif;
-    padding-left: 23px;
-    margin: 0 56px 23px 0;
+    margin: 0 69px 23px 0;
+    max-width: 372px;
+    padding-left: 10px;
   }
 
   .buttons-shopping__button {
+    margin-right: 20px;
     font: 13px/33px montserratmedium, arial, helvetica, sans-serif;
     height: 37px;
     width: 260px;
@@ -2108,17 +2110,16 @@ body {
 
   .btn-ref {
     flex-direction: column;
-    width: 100%;
-    margin-right: 0;
+    max-width: 104%;
   }
 
   .btn-ref__link {
     font: 15px/17px montserratmedium, arial, helvetica, sans-serif;
-    margin-left: 143px;
+    margin-left: 136px;
   }
 
   .btn-ref__arrow div {
     width: 133px;
-    margin: 11px 0 0 144px;
+    margin: 11px 0 0 137px;
   }
 }

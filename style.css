@@ -490,20 +490,14 @@ body {
 }
 
 .content {
+  background: no-repeat url(images/3\ блок\ 2.svg) left 88px top 139px, no-repeat url(images/shadow.png) left 88px top 139px;
+  background-size: 57% 72%, 55% 81%;
   display: flex;
   width: 100%;
   height: 96%;
   align-items: center;
   position: relative;
 }
-
-.content__photo {
-  background: no-repeat url(images/3\ блок\ 2.svg), url(images/shadow.svg);
-  background-size: contain;
-  width: 57%;
-  height: 72%;
-  margin: 35px 0 0 83px;
- }
 
 .goods {
   display: flex;
@@ -696,8 +690,12 @@ body {
     margin-right: 10px;
   }
 
-  .content__photo {
-    height: 67%;  
+  .content {
+    background-size: 56% 71%, 57% 79%;
+  }
+
+  .goods {
+    left: 59%;
   }
 }
 
@@ -710,13 +708,12 @@ body {
     margin-right: 28px;
   }
 
-  .content__photo {
-    height: 64%;
+  .content {
+    background-size: 56% 71%, 57% 78%;
   }
 }
 
 @media (max-width: 1260px) {
-
   .bags {
     padding-left: 10px;
   }
@@ -751,8 +748,13 @@ body {
     background: no-repeat url(images/2\ блок\ 2.svg) left 98px top 29px, no-repeat url(images/2\ блок.svg) left 0 bottom 193px;
   }
 
+  .content {
+    background-size: 54% 66%, 56% 74%;
+  }
+
   .goods {
-    top: 268px;
+    top: 235px;
+    left: 58%;
   }
 
   .goods__header {
@@ -791,17 +793,6 @@ body {
 
   .btn-ref__link {
     margin-left: 50px;
-  }
-
-  .content__photo {
-    height: 60%;  
-  }
-}
-
-@media (max-width:1220px) {
-  
-  .content__photo {
-    height: 57%;  
   }
 }
 
@@ -870,9 +861,9 @@ body {
     margin-right: 18px;
   }
 
-  .content__photo {
-    margin-right: 411px;
-    width: 56%;
+  .content {
+    background: no-repeat url(images/3\ блок\ 2.svg) left 88px top 139px, no-repeat url(images/shadow.png) left 88px top 180px;
+    background-size: 54% 66%, 56% 66%;
   }
 
   .goods {
@@ -975,16 +966,15 @@ body {
     width: 89%;
   }
 
-  .content__photo {
-    width: 61%;
-    height: 56%;
-    margin: 158px 0 0 53px;
+  .content {
+    background: no-repeat url(images/3\ блок\ 2.svg) left 88px top 139px, no-repeat url(images/shadow.png) left 88px top 190px;
+    background-size: 54% 66%, 56% 61%;
   }
 
   .goods {
     padding: 0 10px;
-    top: 355px;
-    left: 61%;
+    top: 252px;
+    left: 58%;
   }
 
   .goods__header {
@@ -1067,10 +1057,13 @@ body {
     width: 129px;
   }
 
-  .content__photo {
-    width: 58%;
-    height: 52%;
-    margin-top: 143px;
+  .content {
+    background: no-repeat url(images/3\ блок\ 2.svg) left 88px top 139px, no-repeat url(images/shadow.png) left 88px top 200px;
+    background-size: 54% 66%, 56% 60%;
+  }
+
+  .goods {
+    top: 274px;
   }
 
   .goods__header {
@@ -1170,7 +1163,6 @@ body {
     background-size: 97px 95px;
   }
 
-
   .circle__white {
     width: 27px;
     height: 27px;
@@ -1217,15 +1209,11 @@ body {
     margin-left: 21px;
   }
 
-  .content__photo {
-    width: 58%;
-    height: 48%;
+  .content {
+    background: no-repeat url(images/3\ блок\ 2.svg) left 88px top 139px, no-repeat url(images/shadow.png) left 88px top 229px;
+    background-size: 54% 66%, 56% 53%;
   }
-
-  .goods {
-    top: 341px;
-  }
-
+  
   .goods__header {
     font-size: 27px;
   }
@@ -1349,13 +1337,11 @@ body {
     margin-right: 6px;
   }
 
-  .content__photo {
-    width: 55%;
-    margin-top: 98px;
+  .content {
+    background-size: 54% 66%, 56% 51%;
   }
-
   .goods {
-    top: 276px;
+    top: 252px;
     left: 57%;
   }
 
@@ -1392,11 +1378,6 @@ body {
   .goods__paragraph {
     margin-bottom: 17px;
   }
-
-  .content__photo {
-    height: 45%;
-    margin-top: 46px;
-  }  
 
   .goods {
     width: 35%;
@@ -1446,6 +1427,13 @@ body {
   .goods {
     width: 32%;
     height: 31%;
+    left: 58%;
+    top: 274px;
+  }
+
+  .content {
+    background: no-repeat url(images/3\ блок\ 2.svg) left 64px top 139px, no-repeat url(images/shadow.png) left 88px top 229px;
+    background-size: 54% 66%, 49% 50%;
   }
 
   .goods__header {
@@ -1469,10 +1457,6 @@ body {
 
   .buttons-shopping__quantity {
     display: none;
-  }
-
-  .content__photo {
-    margin-top: 41px;
   }
 
   .buttons-shopping {
@@ -1603,12 +1587,8 @@ body {
   }
 
   .content {
-    background: url(images/Mask\ Group.svg) no-repeat center bottom 110px, url(images/shadow.svg) no-repeat;
-    background-size: 535px 647px;
-  }
-
-  .content__photo {
-    display: none;
+    background: url(images/Mask\ Group.svg) no-repeat center bottom 110px, no-repeat url(images/shadow.png) left 88px top 0;
+    background-size: 535px 647px, 49% 73%;
   }
 
   .buttons-ref {
@@ -1683,7 +1663,8 @@ body {
   }
 
   .content {
-    background-size: 487px 649px;
+    background: url(images/Mask\ Group.svg) no-repeat center bottom 110px, no-repeat url(images/shadow.png) left 77px bottom 205px;
+    background-size: 487px 649px, 49% 67%;
   }
 
   .goods__header {
@@ -1724,14 +1705,15 @@ body {
   .btn-shopping__button {
     font-size: 12px;
     width: 365px;
-}
+  }
+
+  .content {
+    background: url(images/Mask\ Group.svg) no-repeat center bottom 110px, no-repeat url(images/shadow.png) left 49px bottom 205px;
+    background-size: 487px 649px, 49% 67%;
+  }
 }
 
 @media (max-width: 614px) {
-  .home-page__header {
-    padding-left: 33px;
-  }
-
   .bags__header {
     margin-right: 165px;
   }
@@ -1767,6 +1749,11 @@ body {
 
   .btn-shopping__button {
     width: 320px;
+  }
+
+  .content {
+    background: url(images/Mask\ Group.svg) no-repeat center bottom 110px, no-repeat url(images/shadow.png) left 35px bottom 205px;
+    background-size: 487px 649px, 49% 62%;
   }
 
   .goods__header {
@@ -1805,11 +1792,17 @@ body {
   .bags__paragraph {
     line-height: 18px;
   }
+
+  .content {
+    background: url(images/Mask\ Group.svg) no-repeat center bottom 110px, no-repeat url(images/shadow.png) left 8px bottom 200px;
+    background-size: 487px 649px, 49% 62%;
+  }
 }
 
 @media (max-width: 525px) {
   .content {
-    background-size: 424px 609px;
+    background: url(images/Mask\ Group.svg) no-repeat center bottom 110px, no-repeat url(images/shadow.png) left 25px bottom 200px;
+    background-size: 424px 609px, 49% 57%;
   }
 
   .goods__header {
@@ -1868,9 +1861,21 @@ body {
   .btn-ref__link {
     margin-left: 64px;
   }
+
+  .content {
+    background: url(images/Mask\ Group.svg) no-repeat center bottom 110px, no-repeat url(images/shadow.png) left 13px bottom 200px;
+    background-size: 424px 609px, 49% 57%;
+  }
 }
 
-@media (max-width:432px) {
+@media (max-width: 480px) {
+  .content {
+    background: url(images/Mask\ Group.svg) no-repeat center bottom 110px, no-repeat url(images/shadow.png) left 0 bottom 200px;
+    background-size: 424px 609px, 49% 57%;
+  }
+}
+
+@media (max-width: 432px) {
   .wrap {
     height: 632px;
   }
@@ -1924,7 +1929,8 @@ body {
   }
 
   .content {
-    background-size: 362px 609px;
+    background: url(images/Mask\ Group.svg) no-repeat center bottom 110px, no-repeat url(images/shadow.png) left 0 bottom 224px;
+    background-size: 362px 609px, 68% 57%;
   }
 
   .goods {
@@ -2069,8 +2075,8 @@ body {
   }
 
   .content {
-    background: url(images/Mask\ Group.svg) no-repeat center bottom 269px;
-    background-size: 352px 276px;
+    background: url(images/Mask\ Group.svg) no-repeat center bottom 269px, no-repeat url(images/shadow.png) left 0 bottom 239px;
+    background-size: 352px 276px, 26% 55%;
   }
 
   .goods {
@@ -2110,7 +2116,7 @@ body {
 
   .btn-ref {
     flex-direction: column;
-    max-width: 104%;
+    max-width: 100%;
   }
 
   .btn-ref__link {
